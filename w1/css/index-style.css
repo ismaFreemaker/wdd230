@@ -1,6 +1,9 @@
 /* here is the style for the index.html */
+body{
+    max-width: 500px;
+}
 
-header{
+#header-grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -41,7 +44,4 @@ footer p{
 }
 #last-update{
     grid-area: update;
-}
-body{
-    max-width: 500;
 }
