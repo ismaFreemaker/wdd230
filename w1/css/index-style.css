@@ -1,0 +1,47 @@
+/* here is the style for the index.html */
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "my-img my-name"
+    ;
+    background-color: yellowgreen;
+    justify-items: center;
+    align-items: center;
+}
+.my-profile-image{
+    grid-area: my-img;
+    width: 50%;
+    padding: 1em;
+}
+#my-name-title{
+    grid-area: my-name;
+    color: white;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "copyright"
+    "update";
+    background-color: yellowgreen;
+    justify-items: center;
+    align-items: center;
+        
+}
+footer p{
+    margin: 0 auto 0 auto;
+}
+#copyright-paragraph{
+    text-align: center;
+    grid-area: copyright;
+}
+#last-update{
+    grid-area: update;
+}
+body{
+    max-width: 500;
+}
