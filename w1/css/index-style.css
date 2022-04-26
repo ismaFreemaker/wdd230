@@ -50,3 +50,6 @@ footer p{
 .last-update{
     grid-area: update;
 }
+#lessons-acclaration{
+    font-style: italic;
+}
