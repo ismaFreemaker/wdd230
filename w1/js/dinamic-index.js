@@ -1,6 +1,6 @@
 let nLastModified = new Date(document.lastModified);
 
-let day = nLastModified.getDay();
+let day = nLastModified.getDate();
 let month = nLastModified.getMonth();
 let year = nLastModified.getFullYear();
 let hour = nLastModified.getHours();

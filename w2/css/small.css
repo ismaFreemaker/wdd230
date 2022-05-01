@@ -1,0 +1,28 @@
+div, footer{
+    background-color: yellowgreen;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.533);
+}
+
+h1, h2, h3{
+    font-family: "DM Sans", sans-serif, monospace;
+    text-align: center;
+    color: white;
+
+}
+p, span, a {
+    font-family: "Radio Canada", sans-serif, 'Gill Sans';
+}
+h3{
+    background-color: grey;
+}
+section{
+    margin-top: 1em;
+    border-radius: 0.5em;
+    border: solid grey 1px;
+}
+
+img{
+    margin: 0;
+    width: 100%;
+
+}

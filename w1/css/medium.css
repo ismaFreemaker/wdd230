@@ -1,0 +1,32 @@
+@media (min-width: 32.5em){
+
+    #header-grid, footer{
+        border-radius: 0.15em;
+    }
+
+    #header-grid{
+    display: grid;
+    grid-template-areas:
+    "my-img my-name"
+    ;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.533);
+}
+.my-profile-image{
+    grid-area: my-img;
+    
+}
+#my-name-title{
+    grid-area: my-name;
+    color: white;
+}
+footer{
+    box-shadow: 5px 5px 5px #00000088;
+}
+.my-profile-image{
+    box-shadow: #000000;
+    border-radius: 0.15em;
+}
+
+
+
+}
