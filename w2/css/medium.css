@@ -1,0 +1,17 @@
+@media only screen and (min-width:37.5em){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        /* grid-area: auto; */
+    }
+    #main-heading{
+        grid-column: 1/end;
+    }
+    main :nth-child(4){
+        grid-column: 1/end;
+    }
+    /* section{
+        width: 10em;
+    } */
+}
