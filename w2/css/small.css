@@ -10,9 +10,10 @@ h1, h2, h3{
     color: white;
 
 }
-p, span, a {
+.company-name, span, a, p {
     font-family: "Radio Canada", sans-serif, 'Gill Sans';
 }
+.company-name{ font-size: large; font-weight: bold;}
 h3{
     background-color: grey;
 }
