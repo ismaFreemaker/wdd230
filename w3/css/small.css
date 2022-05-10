@@ -1,0 +1,33 @@
+
+body{
+    max-width: fit-content;
+    margin: 0 auto 0 auto;
+}
+a{text-decoration: none;}
+nav ul{background-color: #3D1F00; padding: 1em;}
+nav ul li{display: inline; padding: 1em; }
+nav ul a:link, a:visited {color: white; padding: 1em;}
+nav ul a:hover, a:active{color: black; background-color: #FFA500; padding: 1em; font-weight: bold;}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Radio Canada";
+    /* color: orange; */
+}
+.heading-color{
+    color: orange;
+}
+.site-header{
+    font-size: 40px;
+}
+p, li, body{
+    font-family: "DM Sans";
+}
+table, th, td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 1em;
+}
+.color-1{background-color: #3D1F00; color: white;}
+.color-2{background-color: #FFA500;}
+.color-3{background-color: #A4B3B7;}
+.color-4{background-color: #FFFFFF;}
