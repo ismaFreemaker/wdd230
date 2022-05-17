@@ -6,7 +6,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 :root{
-    --header-background-color: #3D1F00;
+    --header-background-color: #0e5700;
     --heading-logo-font-color: #FFA500;
     --headings-font-color: #000;
 
@@ -31,7 +31,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     --link-hover-font-color: ;
     --link-active-font-color: ; */
 
-    --footer-background-color: #3D1F00;
+    --footer-background-color: #0e5700;
     --footer-font-color: #fff;
     --footer-location-link-font-color: #FFA500;
 }
