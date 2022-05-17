@@ -1,0 +1,56 @@
+@media only screen and (min-width: 37.5rem){
+    main{
+        display: grid;
+        column-gap: 0.5rem;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    main div{
+        grid-column: 1/end;
+    }
+    .news-release-box{
+        grid-row: 2;
+    }
+    
+    .join-box{
+        display: block;
+        grid-row: 4;
+    }
+    .spotlights-container{
+        grid-row: 3;
+        flex-direction: row;
+        height: 10rem;
+        gap: 0.5rem;
+    }
+    .event-box{grid-column: 1/3;}
+    .weather-box{grid-column: 3/4;}     
+
+
+
+    footer{
+        display: grid;
+        grid-template-columns: auto 1fr 2fr;
+    }
+    .footer-logo{justify-self: center;}    
+    
+    
+
+    .bottom-student-information-box{
+        grid-column: 1/end;
+        justify-self: stretch;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+
+    .bottom-student-information-box span{
+        border-right: 1px solid #fff;
+        padding: 0 1rem 0 1rem;
+    }
+    .bottom-student-information-box :last-child{
+        border: none;
+    }
+
+
+}

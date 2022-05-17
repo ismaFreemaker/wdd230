@@ -9,7 +9,7 @@ let seconds = nLastModified.getSeconds();
 
 let updatedDateParagraphSpan = document.querySelector(".last-update");
 
-updatedDateParagraphSpan.textContent = `The last day that was modified was: ${day}/${month}/${year}  ${hour}:${minutes}:${seconds}`;
+updatedDateParagraphSpan.textContent = `Last modification: ${day}/${month}/${year}  ${hour}:${minutes}:${seconds}`;
 // updatedDateParagraphSpan.textContent = `${nLastModified}`;
 
 let copyrightParagraph = document.querySelector("#copyright-parag");

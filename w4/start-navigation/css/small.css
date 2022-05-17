@@ -4,15 +4,15 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+nav{
+    background-color: #eee;
+}
 nav button {
     margin: .2rem 2vw;
     background: transparent;
     border: none;
     font-size: 2rem;
     color: #555;
-}
-nav{
-    background-color: #eee;
 }
 nav ul{
     list-style-type: none;
