@@ -61,7 +61,7 @@ header {
 
 header h1, header span{grid-column: 2; grid-row: 1; justify-self: start;}
 
-.media{display: inline; grid-column: 3; align-self: center; justify-self: end; position:sticky;}
+.media{display: inline; grid-column: 3; align-self: center; justify-self: end; }
 .media img{width: 30px; }
 .facebook-media-image{width: 2rem;}
 .linkedIn-media-image{width: 2rem;}
