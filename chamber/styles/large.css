@@ -1,33 +1,13 @@
 @media only screen and (min-width: 64rem){
-    #hamburgerBtn{
-        display: none;
-    }
-    header{
-        grid-template-columns:  auto 2fr 4fr 1.5fr 3.5rem ;    
-    }
-    .media{ 
-        grid-column: 4;
-    }
-
-    nav {
-        grid-column: 3; 
-        grid-row: 1;
-        justify-self: center;
-    }
-    nav ul {
-        display: flex;
-    }
-    nav ul li a{
-        flex-direction: row;
-        /* background-color: #3D1F00; */
-        /* color: #fff; */
-    }
+    
+    
+    
 
     main{
         margin: auto 1rem auto 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1.2fr;
-        grid-template-rows: 15rem 15rem 15rem ;        
+        /* grid-template-rows: 15rem 15rem 15rem ;         */
     }
     main div{
         margin: 0.5rem;

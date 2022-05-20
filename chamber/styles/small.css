@@ -6,23 +6,23 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 :root{
-    --header-background-color: #0e5700;
-    --heading-logo-font-color: #FFA500;
+    --header-background-color: #fff;
+    --heading-logo-font-color: #ee7f00;
     --headings-font-color: #000;
 
-    --span-currentDay-font-color: #FFA500;
-    --span-currentDay-background-color: #95969D88;
+    --span-currentDay-font-color: #fff;
+    --span-currentDay-background-color: #ee7f00;
 
-    --hamburgerBtn-font-color: #FFA500;
+    --hamburgerBtn-font-color: #ee7f00;
     --hamburgerBtn-background-color: #3D1F00;
 
     --nav-background-color: #f5b640;
-    --nav-link-background-color: #f5b640;
+    --nav-link-background-color: #fff;
     --nav-link-font-color: #3D1F00;
-    --nav-link-active-background-color: rgba(265, 165, 0, 0.5);
-    --nav-link-active-font-color: #fff;
-    --nav-link-hover-background-color: #FFA500;
-    --nav-link-hover-font-color: #3D1F00;
+    --nav-link-active-background-color: #f5b640;
+    --nav-link-active-font-color: #3D1F00;
+    --nav-link-hover-background-color: #ee7f00;
+    --nav-link-hover-font-color: #fff;
 
     --paragraph-font-colors: rgba(0, 0, 0, 0.3);
     --paragraph-background-color: #95969D88;
@@ -33,7 +33,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
     --footer-background-color: #0e5700;
     --footer-font-color: #fff;
-    --footer-location-link-font-color: #FFA500;
+    --footer-location-link-font-color: #ee7f00;
 }
 
 h1, h2, h3, h4, h5, h6, header span, nav{
@@ -86,7 +86,7 @@ nav ul li a {
     padding: 0.8rem;
     color: var(--nav-link-font-color);
 }
-nav ul li a.active{background-color: var(--nav-link-active-background-color); color: var(--nav-link-active-font-color);}
+nav ul li a.active{background-color: var(--nav-link-active-background-color); color: var(--nav-link-active-font-color); border-bottom: 3px solid var(--nav-link-hover-background-color);}
 nav ul li a:hover{background-color: var(--nav-link-hover-background-color); color: var(--nav-link-hover-font-color);}
 nav {grid-row: 2; grid-column: 1/end; justify-self: stretch;}
 nav ul {display: none;}
@@ -103,12 +103,13 @@ main{
     display: block;
 }
 main div{
-    height: 10rem;
+    height: auto;
     background-color: var(--paragraph-background-color);
     color: rgba(0, 0, 0, 0.6);
     margin-top: 1rem;
     padding: 1rem;
 }
+
 .join-box {display: none;}
 .spotlights-container{display: flex; flex-direction: column; height: 15rem;}
 .spotlights-container section{border: 1px solid grey; flex-grow: 1; padding: 0.5rem;}

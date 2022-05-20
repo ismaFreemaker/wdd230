@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5rem){
+@media only screen and (min-width: 41rem){
     main{
         display: grid;
         column-gap: 0.5rem;
@@ -6,6 +6,36 @@
     }
     main div{
         grid-column: 1/end;
+    }
+    #hamburgerBtn{
+        display: none;
+    }
+    header{
+        grid-template-columns:  auto 2fr 4fr 1.5fr;    
+    }
+    .media{ 
+        grid-column: 4;
+    }
+
+    nav {
+        grid-column: 3; 
+        grid-row: 1;
+        justify-self: center;
+    }
+    nav ul#primaryNav{
+        display: flex;
+    }
+    nav ul li a{
+        border: none;
+
+    }
+    nav ul li a.active{
+        background-color: #fff;
+    }
+    nav ul li a.active:hover{
+        /* flex-direction: row; */
+        background-color:  #ee7f00;
+        /* color: #fff; */
     }
     .news-release-box{
         grid-row: 2;
@@ -17,12 +47,11 @@
     .spotlights-container{
         grid-row: 3;
         flex-direction: row;
-        height: 10rem;
+        height: auto;
         gap: 0.5rem;
     }
     .event-box{grid-column: 1/3;}
     .weather-box{grid-column: 3/4;}     
-
 
 
     footer{
