@@ -39,6 +39,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 h1, h2, h3, h4, h5, h6, header span, nav{
     font-family: "Radio Canada", monospace, sans-serif;
 }
+
 body{
     font-family: "DM Sans", 'Times New Roman', Times, serif;
 }
@@ -59,7 +60,8 @@ header {
 .logo span, .logo h1{margin: 5px; }
 .logo h1{margin-left: 0px;}
 
-header h1, header span{grid-column: 2; grid-row: 1; justify-self: start;}
+header h1, header h2{grid-column: 2; grid-row: 1; justify-self: start;}
+header h2{margin: 0; font-size: 100%;}
 
 .media{display: inline; grid-column: 3; align-self: center; justify-self: end; }
 .media img{width: 30px; }
@@ -68,7 +70,7 @@ header h1, header span{grid-column: 2; grid-row: 1; justify-self: start;}
 
 
 nav { justify-self: center; align-self: center;}
-.currentDate{grid-row: 3; grid-column: 1/end; justify-self: stretch; padding: 0.5rem; background-color: var(--span-currentDay-background-color); color: var(--span-currentDay-font-color); margin: 0.5rem; text-align: center;}
+.currentDate{grid-row: 3; grid-column: 1/end; justify-self: stretch; padding: 0.5rem; background-color: var(--span-currentDay-background-color); color: var(--span-currentDay-font-color); margin: 0.5rem 0 0.5rem 0; text-align: center;}
 
 
 nav ul {
@@ -106,12 +108,33 @@ main div{
     height: auto;
     background-color: var(--paragraph-background-color);
     color: rgba(0, 0, 0, 0.6);
-    margin-top: 1rem;
+    margin: 1rem 1rem 1rem 1rem ;
     padding: 1rem;
+}
+main > div:hover, main div section:hover{
+    animation-duration: 3s;
+    box-shadow: 0px 0px 20px 10px var(--heading-logo-font-color);
+    width: 100%;
 }
 
 .join-box {display: none;}
-.spotlights-container{display: flex; flex-direction: column; height: 15rem;}
+
+.weather-box{
+    margin: 1rem 2rem 1rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.weather-box h2{grid-column: 1/3; justify-self: center;}
+.weather-box img{width:7rem; grid-column: 1; grid-row: 2; justify-self: center;}
+.weather-box .actual-temperature{font-size: 3rem; align-self: center; grid-column: 2;}
+.weather-box b{grid-column: 1/3; grid-row: 3; justify-self: center;}
+.weather-box div{grid-column: 1/3; grid-row: 4; justify-content: center; border-top: 3px solid black; margin-top: 0;}
+.weather-box div{text-align: center;}
+
+
+
+.spotlights-container{display: flex; flex-direction: column; height: auto;}
 .spotlights-container section{border: 1px solid grey; flex-grow: 1; padding: 0.5rem;}
 .spotlight-3{display: none; }
 

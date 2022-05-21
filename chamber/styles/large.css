@@ -8,6 +8,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1.2fr;
         /* grid-template-rows: 15rem 15rem 15rem ;         */
+        justify-items: stretch;
     }
     main div{
         margin: 0.5rem;
