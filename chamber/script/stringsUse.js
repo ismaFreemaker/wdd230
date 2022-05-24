@@ -77,4 +77,10 @@ switch(monthNumber){
 let thisYear = entireDate.getFullYear();
 lastModificationHeader.textContent = `${dayName}, ${monthName} ${entireDate.getDate()}, ${thisYear}`;
 
+
+
+let meetingBoxAdvice = document.querySelector(".meeting-box-advice");
+if (dayName == "Monday" || dayName == "Tuesday"){
+    meetingBoxAdvice.innerHTML = "There will be a meeting on 21st Thursday";
+}
 // "Current Date: " + dayName + ", " + monthName + " " + d.getDate() +", " + year;
