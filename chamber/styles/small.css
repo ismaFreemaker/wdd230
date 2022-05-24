@@ -121,7 +121,7 @@ main div{
 }
 main > div:hover, main div section:hover{
     animation-duration: 3s;
-    box-shadow: 0px 0px 20px 10px var(--heading-logo-font-color);
+    box-shadow: 0px 0px 20px 2px #000;
     /* width: 100%; */
 }
 
