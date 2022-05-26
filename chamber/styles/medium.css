@@ -1,5 +1,6 @@
-@media only screen and (min-width: 41rem){
+@media only screen and (min-width: 670px){
     main{
+        
         display: grid;
         column-gap: 0.5rem;
         grid-template-columns: 1fr 1fr 1fr;
@@ -21,6 +22,7 @@
         grid-column: 3; 
         grid-row: 1;
         justify-self: center;
+        margin: 10px;
     }
     nav ul#primaryNav{
         display: flex;
@@ -47,7 +49,7 @@
     .spotlights-container{
         grid-row: 3;
         flex-direction: row;
-        height: auto;
+        /* height: auto; */
         gap: 0.5rem;
     }
     .event-box{grid-column: 1/3;}

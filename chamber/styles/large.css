@@ -50,8 +50,15 @@
         flex-direction: column;
         justify-content: space-evenly;
     }
+    /* setting the properties of spotlight-3 here because in the small appears though the display:none*/
     .spotlight-3{
-        display: block;
+        display: flex;
+        border: 1px solid grey; 
+        flex-grow: 1; 
+        padding: 0.3rem; 
+        display: flex; 
+        flex-direction: column; 
+        text-align: center;
     }
     .news-release-box{
         grid-column: 2/4;
