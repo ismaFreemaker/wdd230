@@ -24,7 +24,6 @@ const hamburgerBtn = document.getElementById("hamburgerBtn");
 hamburgerBtn.onclick = toggleMenu;
 
 
-console.log(window.innerWidth);
 
 // if (self.innerWidth < 1000){
 //     document.querySelector(".hero-image").src = "./images/square-main-hero-picture.jpg";

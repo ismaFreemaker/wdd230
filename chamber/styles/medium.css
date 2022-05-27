@@ -39,6 +39,11 @@
         background-color:  #ee7f00;
         /* color: #fff; */
     }
+
+    main .hero-box .hero-heading{
+        display:block ;
+    }
+
     .news-release-box{
         grid-row: 2;
     }

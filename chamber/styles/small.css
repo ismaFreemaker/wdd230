@@ -36,7 +36,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     --footer-location-link-font-color: #ee7f00;
 }
 
-.meeting-box-advice{
+#meeting-box-advice{
     background-color: var(--footer-background-color);
     color: #fff;
     text-align: center;
@@ -108,6 +108,12 @@ nav ul.open{display: block;}
 #hamburgerBtn.open span:nth-child(1){ display: none;}
 #hamburgerBtn.open span:nth-child(2){ display: block; margin-right: 0;}
 
+#meeting-box-advice.dayDisplay {
+    display: block;
+}
+#meeting-box-advice{
+    display: none;
+}
 
 main{
     display: block;
@@ -122,9 +128,10 @@ main > div{
     box-shadow: 1px 1px 8px 1px #000;
 }
 main > div:hover, main div section:hover{
-    animation-duration: 3s;
     box-shadow: 0px 0px 15px 2px #000;
-    /* width: 100%; */
+}
+main .spotlights-container:hover{
+    box-shadow: 1px 1px 8px 1px #000;
 }
 
 main .hero-box {
@@ -139,17 +146,19 @@ main .hero-box .hero-image{
     padding: 0;
 }
 main .hero-box .hero-heading{
+    display: none;
     position: absolute;
-    left: 50px;
+    left: 10px;
     top: 10px;
     padding: 0.5rem;
     color: #fff;
     background-color: #0e570088;
+
 }
 main .hero-box button{
     position: absolute;
-    right: 50px;
-    bottom: 50px;
+    right: 10px;
+    bottom: 10px;
     padding: 10px;
     background-color: #ee7f00;
     color: #fff;

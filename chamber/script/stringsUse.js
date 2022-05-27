@@ -79,8 +79,9 @@ lastModificationHeader.textContent = `${dayName}, ${monthName} ${entireDate.getD
 
 
 
-let meetingBoxAdvice = document.querySelector(".meeting-box-advice");
+let meetingBoxAdvice = document.querySelector("#meeting-box-advice");
 if (dayName == "Monday" || dayName == "Tuesday"){
     meetingBoxAdvice.innerHTML = "There will be a meeting on 21st Thursday";
+    meetingBoxAdvice.classList.toggle("dayDisplay");
 }
 // "Current Date: " + dayName + ", " + monthName + " " + d.getDate() +", " + year;

@@ -16,13 +16,14 @@
   <link rel="stylesheet" href="./styles/large.css">
   <script src="script/dinamic-index.js" defer></script>
   <script src="script/stringsUse.js" defer></script>
+  <script src="script/wind-chill.js" defer></script>
   <link rel="shortcut icon" href="favicon.ico">
 </head>
 
 <body>
-    <section class="meeting-box-advice"></section>
+    <section id="meeting-box-advice"></section>
     <header>
-        <img class="header-logo-img" src="images/Commerce-chamber-logo.png" alt="Lujan Chamber of Commerce Logo">
+        <img class="header-logo-img" src="images/Commerce-chamber-logo-large.png" alt="Lujan Chamber of Commerce Logo">
         <div class="logo">
             <h1>Luján </h1>
             <h2>Chamber of Commerce</h2>
@@ -45,7 +46,12 @@
     </header>
     <main>
         <div class="hero-box">
-            <img class="hero-image" src="images/square-main-hero-picture.jpg"  alt="This is the hero image">
+            <picture>
+                <source srcset="images/wdd230-hero-image-org-large.jpg" media="(min-width: 64rem)">
+                <source srcset="images/wdd230-hero-image-org-medium.jpg" media="(min-width: 670px)">
+                <source srcset="images/wdd230-hero-image-org-small.jpg" media="(min-width: 400px)">
+                <img class="hero-image" src="images/wdd230-hero-image-org-small.jpg" alt="This is the hero image">
+            </picture>
             <h2 class="hero-heading">Welcome to Luján</h2>
             <button>Join the Chamber</button>
         </div>
@@ -57,11 +63,11 @@
         <div class="weather-box">
             <h2>Weather</h2>
             <img src="images/1530391_weather_clouds_sun_sunny_icon.png" alt="weather icon">
-            <span class="actual-temperature">33°C</span>
+            <p class="actual-temperature"><span class="temperature">5</span>C°</p>
             <b>Partly Cloudy</b>
             <div>
-                <p>Wind Speed: 5.2km/h</p>
-                <p>Wind Chill: N/A</p>
+                <p>Wind Speed: <span class="windVelocity">5.2</span>km/h</p>
+                <p>Wind Chill: <span class="windChill"></span></p>
             </div>
         </div>
         <div class="news-release-box">
@@ -106,7 +112,7 @@
     </main>
     
     <footer>
-        <img class="footer-logo" src="images/Commerce-chamber-logo.png" alt="Luján Chamber of Commerce Logo">
+        <img class="footer-logo" src="images/Commerce-chamber-logo-large.png" alt="Luján Chamber of Commerce Logo">
         <span class="footer-logo-name">Luján Chamber of Commerce</span>
         <div class="chamber-info-footer-container">
             <span class="street-direction">Mitre 3000, Luján</span>
