@@ -43,7 +43,9 @@
     main .hero-box .hero-heading{
         display:block ;
     }
-
+    main .hero-box .hero-image{
+        align-self: stretch;
+    }
     .news-release-box{
         grid-row: 2;
     }
