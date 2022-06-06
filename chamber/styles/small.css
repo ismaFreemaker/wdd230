@@ -243,6 +243,10 @@ footer span .location-link{text-decoration: none; color: var(--footer-location-l
 .lujan-images-box h2, .lujan-statistics-box h2 {
     margin-top: 1.2rem;    margin-bottom: 0.5rem;
 }
+.lujan-statistics-box img, .lujan-images-box img{
+    width: 100%;
+    box-shadow: 1px 1px 5px 0.5px #000;
+}
 .lujan-images-box h2:hover, .lujan-statistics-box h2:hover {
     box-shadow: none;
 }
