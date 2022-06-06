@@ -234,3 +234,20 @@ footer span .location-link{text-decoration: none; color: var(--footer-location-l
 .student-name{font-weight: bold; font-size: 120%;}
 .footer-logo{width: 100px; padding: 1rem; margin-top: 0px;}
 
+
+
+
+/* ------------ Discover website --------------- */
+
+
+.lujan-images-box h2, .lujan-statistics-box h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+.lujan-images-box h2:hover, .lujan-statistics-box h2:hover {
+    box-shadow: none;
+}
+
+
+
+

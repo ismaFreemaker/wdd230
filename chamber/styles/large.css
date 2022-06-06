@@ -64,5 +64,35 @@
         grid-column: 2/4;
         grid-row: 3;
     }
+
+
+    /* -------------- discover site------------------- */
+    .lujan-statistics-box{
+        grid-column: 1/4;
+        grid-row: 1/end;
+        align-items: stretch;
+    }
+    .lujan-images-box{
+        grid-column: 4;
+        grid-row: 1/end;
+    }
     
+    
+    .lujan-images-box:hover, .lujan-statistics-box:hover {
+        box-shadow: 1px 1px 8px 1px #000;;
+    }
+    .lujan-statistics-box img, .lujan-images-box img{
+        width: 100%;
+        box-shadow: 1px 1px 5px 0.5px #000;
+    }
+
+    main img[data-src]{
+        filter: blur(0.2em);
+    }
+    
+    main img {
+        filter: blur(0em);
+        transition: filter 0.5s;
+    }
+
 }
