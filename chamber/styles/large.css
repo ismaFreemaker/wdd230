@@ -86,6 +86,13 @@
         box-shadow: 1px 1px 5px 0.5px #000;
     }
 
+    main img[data-src]{
+        filter: blur(0.2em);
+    }
     
+    main img {
+        filter: blur(0em);
+        transition: filter 0.5s;
+    }
 
 }
