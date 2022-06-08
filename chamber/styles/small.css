@@ -260,4 +260,15 @@ main img {
     transition: filter 0.5s;
 }
 
+main :nth-child(1){
+    grid-column: 1/end;
+}
 
+.local-storage-warning-box{
+    background-color: #0e5700;
+    color: #fff;
+    text-align: center;
+}
+.local-storage-warning-box span{
+    
+}

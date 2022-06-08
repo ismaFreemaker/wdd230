@@ -1,5 +1,5 @@
 const todayDislplay = document.querySelector(".today");
-const visitDisplay = document.querySelector(".visit");
+const visitDisplay = document.querySelector(".visits");
 
 // get the stored value in localStorage
 let numVisits = Number(window.localStorage.getItem('visits-ls'));
