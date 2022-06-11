@@ -1,0 +1,33 @@
+table{
+    margin: auto;    
+    text-align: center;
+    border-collapse: collapse;
+    font-family: "Ubuntu", sans-serif, monospace;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+.thead-brand{
+    background-color: rgb(117, 248, 91);
+}
+thead tr th{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+tbody tr th, .sales-goal-nov{
+    background-color: #3b9c27;
+    color:#fff;
+}
+tr{
+    background-color: #8cf577;
+}
+td, th {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+}
+tfoot tr td {
+    font-size: .8rem;
+}
+tr:nth-child(even){
+    background-color: white;
+}
+
+
