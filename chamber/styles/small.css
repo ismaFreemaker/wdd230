@@ -78,7 +78,6 @@ header h2{margin: 0; font-size: 100%;}
 .linkedIn-media-image{width: 2rem;}
 
 
-nav { justify-self: center; align-self: center;}
 .currentDate{grid-row: 3; grid-column: 1/end; justify-self: stretch; padding: 0.5rem; background-color: var(--span-currentDay-background-color); color: var(--span-currentDay-font-color); margin: 0.5rem 0 0.5rem 0; text-align: center;}
 
 
@@ -99,7 +98,7 @@ nav ul li a {
 }
 nav ul li a.active{background-color: var(--nav-link-active-background-color); color: var(--nav-link-active-font-color); border-bottom: 3px solid var(--nav-link-hover-background-color);}
 nav ul li a:hover{background-color: var(--nav-link-hover-background-color); color: var(--nav-link-hover-font-color);}
-nav {grid-row: 2; grid-column: 1/end; justify-self: stretch;}
+nav {grid-row: 2; grid-column: 1/end; justify-self: stretch; margin: 0px;}
 nav ul {display: none;}
 nav ul.open{display: block;} 
 
@@ -269,3 +268,11 @@ main img {
 .local-storage-warning-box span{
     text-align: center;
 }
+
+
+/* ----------------  JOIN.HTML ---------------- */
+
+form label{
+    display: block;
+}
+

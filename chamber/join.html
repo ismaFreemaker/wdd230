@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Luján Chamber of Commerce - Discover - WDD230 Ismael Rojas </title>
+<title>Luján Chamber of Commerce Menu - WDD230 Ismael Rojas </title>
 <meta name="description" content="The Luján Chamber of Commerce is a site were you can find variety of useful local information and the oportunity to join the Chamber of Commerce.">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,13 +17,12 @@
 <script src="script/dinamic-index.js" defer></script>
 <script src="script/stringsUse.js" defer></script>
 <script src="script/wind-chill.js" defer></script>
+<script src="script/formHandling.js" defer></script>
 <link rel="shortcut icon" href="favicon.ico">
-<script src="script/lazy-images.js" defer></script>
-<script src="script/localStorage.js" defer></script>
 </head>
 
 <body>
-    <section id="meeting-box-advice"></section>
+  <section id="meeting-box-advice"></section>
     <header>
         <img class="header-logo-img" width="90" src="images/Commerce-chamber-logo-large.png" alt="Lujan Chamber of Commerce Logo">
         <div class="logo">
@@ -37,45 +36,37 @@
         <button id="hamburgerBtn"><span>&#9776;</span><span><img src="images/7124067_x_icon.svg" alt="x_icon"></span></button>
         <nav>
             <ul id="primaryNav">
-                <li><a href="index.html">Menu</a></li>
-                <li><a class="active" href="discover.html">Discover</a></li>
+                <li><a class="active" href="index.html">Menu</a></li>
+                <li><a href="discover.html">Discover</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <span class="currentDate"></span>
-
     </header>
+
     <main>
-        <section class="local-storage-warning-box">
-            Number of visits: <span class="visits"></span><br>
-            <span class="today"></span><br>
-            <span class="days-passed"></span> 
-        </section>
-        <div class="lujan-statistics-box">
-            <h2>Luján Age Statistics</h2>
-            <img src="images/lujan-age-statistics.png" alt="Luján age statistics">
-            <h2>Luján Country of Birth Statistics</h2>
-            <img src="images/lujan-country-of-birth-statistics.png" alt="Luján country of birth statistics">
-            <h2>Luján Temperature Average</h2>
-            <img src="images/lujan-temperature-average.png" alt="Luján temperature average">
-            <h2>Luján Weather Statistics</h2>
-            <img src="images/lujan-weather-statistics.png" alt="Luján weather statistics">
-        </div>
-        <div class="lujan-images-box">
-            <h2>Basilica of Luján</h2>
-            <img src="https://via.placeholder.com/870x870.png?text=placeholder" data-src="images/lujan-basilica-image.jpg" alt="Luján Basilica">
-            <h2>Luján River</h2>
-            <img src="https://via.placeholder.com/870x870.png?text=placeholder" data-src="images/Luján_Zelaya_Buenos_Aires.jpg" alt="Luján River">
-            <h2>Amusement Park: Argenpark</h2>
-            <img src="https://via.placeholder.com/870x870.png?text=placeholder" data-src="images/lujan-Argenpark.jpg" alt="Argenpark in Luján">
-            <h2>University of Luján</h2>
-            <img src="https://via.placeholder.com/870x870.png?text=placeholder" data-src="images/lujan-university.jpg" alt="Luján University">
-            <h2>Humberto Avenue or "Palms Square"</h2>
-            <img src="https://via.placeholder.com/870x870.png?text=placeholder" data-src="images/lujan-humberto-avenue.jpg" alt="Luján Humberto Avenue">
-        </div>
+        <section class="warning-box"></section>
+        <form method="get" action="thankyou.html">
+            <label>First Name* <input type="text" name="fname" required></label>
+            <label>Last Name* <input type="text" name="lname" required></label>
+            <label>Business Position <input type="text" name="busposition"></label>
+            <label>Email* <input type="email" name="email" placeholder="somebody@email.com" required></label>
+            <label>Cell Phone Number <input type="tel" name="tel" required></label>
+            <label>Business name/title <input type="text" name="businessname" required></label>
+            <label>Membership Level 
+                <select name="" id="">
+                    <option value="">Please Select a </option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+            </label>
+        </form>
     </main>
+
     <footer>
         <img class="footer-logo" src="images/Commerce-chamber-logo-large.png" alt="Luján Chamber of Commerce Logo">
         <span class="footer-logo-name">Luján Chamber of Commerce</span>
