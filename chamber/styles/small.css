@@ -126,12 +126,7 @@ main > div{
     padding: 1rem;
     box-shadow: 1px 1px 8px 1px #000;
 }
-main > div:hover, main div section:hover{
-    box-shadow: 0px 0px 15px 2px #000;
-}
-main .spotlights-container:hover{
-    box-shadow: 1px 1px 8px 1px #000;
-}
+
 main .hero-box {
     position: relative;
     /* margin: 0; */
@@ -163,7 +158,7 @@ main .hero-box button{
     font-weight: bolder;
     font-size: 1rem;
     font-family: "Radio Canada", monospace, sans-serif;
-    border-radius: 0.5rem;
+    border-radius: 0rem;
     border: 1px solid transparent;
 }
 main .hero-box button:hover{
@@ -271,8 +266,58 @@ main img {
 
 
 /* ----------------  JOIN.HTML ---------------- */
-
-form label{
+form {
+    margin: 0 1rem;
+}
+form label.top {
     display: block;
+    padding-top: 1.5rem;
+    color: #860b0b;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select, form label.top textarea {
+    display: block;
+    padding: 0.5rem;
+    border: 0.5px solid rgb(100, 100, 100);
+    border-radius: 0rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form input.submitBtn {
+    background-color:#269410;
+    border: none;
+    color: #fff;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 100%;
+    justify-self: center;
+    max-width: 20rem;
+
+}
+
+form input.submitBtn:hover{
+    background-color: #ee7f00;
+}
+
+form label.top input:required{
+    border-left: solid red 5px;
+}
+
+form .warning-box{
+    display: none;
+    background-color: #860b0b;
+    color: #fff;
+    padding: 0.5rem;
+    max-width: 20rem;
+}
+/* ------------thank you site ------------------- */
+main div.thankyou-msg{
+    color:#0e5700;
+}
+
+main div.thankyou-msg{
+    color:#0e5700;
 }
 

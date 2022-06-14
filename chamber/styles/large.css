@@ -7,13 +7,20 @@
         margin: auto 1rem auto 1rem;
         display: grid;
         grid-template-columns: 1fr 16rem 16rem 1fr;
-        grid-template-rows: 16rem 16rem auto ;        
+        grid-template-rows: 16rem 16.4rem auto ;        
         justify-items: stretch;
     }
     main div{
         margin: 0.5rem;
         height: auto;
     }
+    main > div:hover, main div section:hover{
+        box-shadow: 0px 0px 15px 2px #000;
+    }
+    main .spotlights-container:hover{
+        box-shadow: 1px 1px 8px 1px #000;
+    }
+    
     /* .hero-box{
         position: relative;
     }
@@ -95,4 +102,28 @@
         transition: filter 0.5s;
     }
 
+    /* ------------form ----------------- */
+    form {
+        grid-column: 2/4;
+        grid-row: 1/end;
+        margin: 0 1rem;
+    }
+    form label.top input, form label.top select, form label.top textarea {
+        width: 100%;
+        max-width: 25rem;
+    }
+    form input.submitBtn{
+        width: 100%;
+        max-width: 10rem;
+    }
+
+    /* -------------- thank you site ---------  */
+    main div.thankyou-msg{
+        grid-column: 2/4;
+
+    }
+    form .warning-box{
+        width: 100%;
+        max-width: 25rem;
+    }
 }

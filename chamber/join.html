@@ -30,8 +30,8 @@
             <h2>Chamber of Commerce</h2>
         </div>
         <section class="media">
-            <a class="facebook-media-image" width="30" href="#"><img src="images/3225194_app_facebook_logo_media_popular_icon.svg" alt="Facebook Logo"></a>
-            <a class="linkedIn-media-image" width="30" href="#"><img src="images/3225190_app_linkedin_logo_media_popular_icon.svg" alt="LinkedIn Logo"></a>
+            <a class="facebook-media-image" href="#"><img width="30" src="images/3225194_app_facebook_logo_media_popular_icon.svg" alt="Facebook Logo"></a>
+            <a class="linkedIn-media-image" href="#"><img width="30" src="images/3225190_app_linkedin_logo_media_popular_icon.svg" alt="LinkedIn Logo"></a>
         </section>
         <button id="hamburgerBtn"><span>&#9776;</span><span><img src="images/7124067_x_icon.svg" alt="x_icon"></span></button>
         <nav>
@@ -47,23 +47,26 @@
     </header>
 
     <main>
-        <section class="warning-box"></section>
         <form method="get" action="thankyou.html">
-            <label>First Name* <input type="text" name="fname" required></label>
-            <label>Last Name* <input type="text" name="lname" required></label>
-            <label>Business Position <input type="text" name="busposition"></label>
-            <label>Email* <input type="email" name="email" placeholder="somebody@email.com" required></label>
-            <label>Cell Phone Number <input type="tel" name="tel" required></label>
-            <label>Business name/title <input type="text" name="businessname" required></label>
-            <label>Membership Level 
-                <select name="" id="">
-                    <option value="">Please Select a </option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
+            <section class="warning-box"></section>
+            <label class="top">First Name* <input type="text" name="fname" required></label>
+            <label class="top">Last Name* <input type="text" name="lname" required></label>
+            <label class="top">Business Position <input type="text" name="busposition"></label>
+            <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top">Cell Phone Number <input type="tel" name="tel" required></label>
+            <label class="top">Business name/title <input type="text" name="businessname" required></label>
+            <label class="top">Membership Level 
+                <select name="membershiplevel">
+                        <option >Please Select a Level </option>
+                    <option value="npmembership">NP Membership</option>
+                    <option value="bronzemembership">Bronze Membership</option>
+                    <option value="silvermembership">Silver Membership</option>
+                    <option value="goldmembership">Gold Membership</option>
                 </select>
             </label>
+            <label class="top">Business description: <textarea name="businessdescription" cols="30" rows="10"></textarea></label>
+            <label><input type="hidden" value="daysubmitted" id="daySubmitted"></label>
+            <input type="submit" value="Join the Chamber" class="submitBtn">
         </form>
     </main>
 
