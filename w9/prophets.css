@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif, monospace, serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+header h1{
+    color: yellowgreen;
+}
+main div.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+}
+main div.cards section{
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+    color: #fff;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+
+}
+main div.cards section h2{
+    color: white;
+}
+div.cards section h2, div.cards section p{
+    margin: 0.4rem;
+} 
+img{
+    width: 100%;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 1); */
+}
+
+/* it seems */
+/* 
+@media only screen and (min-width: 40rem){
+    main div.cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-top: 0;
+    }
+}
+@media only screen and (min-width: 64rem){
+    main div.cards{
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+} */
+

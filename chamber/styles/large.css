@@ -1,7 +1,22 @@
 @media only screen and (min-width: 64rem){
-    
-    
-    
+    header img.header-logo-img{
+        align-self: start;
+        margin-top: 5px;
+    }
+    header img.header-logo-img{
+        margin-left: 2rem;
+    }
+    header nav{
+        font-size: 1.3rem; 
+        margin-bottom: 0;   
+        padding-bottom: 0;
+    }
+    header span.currentDate{
+        margin-top: 0;
+    }
+    header section.media{
+        justify-self: center;
+    }
 
     main{
         margin: auto 1rem auto 1rem;
@@ -102,6 +117,10 @@
         transition: filter 0.5s;
     }
 
+    footer div.chamber-info-footer-container{
+        align-items: flex-end;
+        padding-right: 2rem;
+    }
     /* ------------form ----------------- */
     form {
         grid-column: 2/4;

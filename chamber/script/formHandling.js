@@ -15,12 +15,6 @@ const avoidSymbols = /[\*\"\!\#\$\%\&\/\(\)\=\?\'\"\+\.\,\:\;0-9]/;
 
 businessPosition.addEventListener("focusout", checkJob);
 
-const re = new RegExp();
-
-function checkCharacter(){
-
-}
-
 
 function checkJob () {
     // conditional for the matches of the business input box
