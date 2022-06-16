@@ -74,7 +74,6 @@
     .bottom-student-information-box{
         grid-column: 1/end;
         justify-self: stretch;
-
         display: flex;
         flex-direction: row;
         flex-wrap:wrap;
@@ -89,5 +88,10 @@
         border: none;
     }
 
+    /* ---------- form in join.site ------- */
+    main form {
+        grid-column: 1/4;
+        justify-self: stretch;
+    }
 
 }
