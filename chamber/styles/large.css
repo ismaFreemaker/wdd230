@@ -121,7 +121,7 @@
         align-items: flex-end;
         padding-right: 2rem;
     }
-    /* ------------form ----------------- */
+    /* ------------form in join site----------------- */
     form {
         grid-column: 2/4;
         grid-row: 1/end;
@@ -135,6 +135,43 @@
         width: 100%;
         max-width: 10rem;
     }
+
+    main section.benefits-box{
+        display: block;
+    }
+    main section.benefits-box{
+        grid-column: 4;
+        grid-row: 1/end;
+        border: 1px solid #00000088;
+        border-top: 5px solid #ee7f00;
+        padding: 1rem;
+        margin-top: 1.5rem;
+    }
+    main section.benefits-box h2{
+        color: #3D1F00;
+    }
+    section.benefits-box h3{
+        background-color: #0e5700;
+        margin-left: 0px;
+        padding: 0.2rem;
+        width: 100%;
+    }
+    section.benefits-box div{
+        border: 1px solid #00000088;
+        padding: 0.5rem;
+    }
+    section.benefits-box div.goldmembership h3{
+        color: gold;
+    }
+    section.benefits-box div.silvermembership h3{
+        color: silver;
+    }
+    section.benefits-box div.bronzemembership h3{
+        color: #CD7F32;
+    }
+
+
+
 
     /* -------------- thank you site ---------  */
     main div.thankyou-msg{

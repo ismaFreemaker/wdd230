@@ -312,6 +312,10 @@ form .warning-box{
     padding: 0.5rem;
     max-width: 20rem;
 }
+
+main section.benefits-box {
+    display: none;
+}
 /* ------------thank you site ------------------- */
 main div.thankyou-msg{
     color:#0e5700;
