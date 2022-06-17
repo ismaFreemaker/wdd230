@@ -266,8 +266,13 @@ main img {
 
 
 /* ----------------  JOIN.HTML ---------------- */
+
+
 form {
     margin: 0 1rem;
+}
+fieldset{
+    border-top: solid #ee7f00 5px;
 }
 form label.top {
     display: block;

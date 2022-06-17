@@ -36,18 +36,54 @@ function displayProphets(prophet){
     // setting the content of the birth date and birth place
     birthDate.textContent = `Birth Date: ${prophet.birthdate}`;
     birthPlace.textContent = `Birth Place: ${prophet.birthplace}`;
-    
+
 
     // appending the heading and the portrait to the card, as well as the birthPlace and the birthDate
     card.appendChild(h2);
     card.appendChild(birthDate);
     card.appendChild(birthPlace);
     card.appendChild(portrait);
-    
+
     
     // appending the card to the card
     document.querySelector("div.cards").appendChild(card);
-    
+
     // increasing the number of prophets
     i++;
 }
+
+    
+
+
+
+
+
+
+
+// async function getProphets(){
+//     let response = await fetch(requestURL);
+//     if (response.ok){
+//         let data = await response.json();
+//         console.log(data);
+//         buildProphetsCards(data);
+//     }else{
+//         throw Error(response.statusText)
+//     }
+// }
+
+// function buildProphetsCards(data){
+//     data.prophets.forEach(prophet => {
+//         let card = document.createElement("section");
+//         let h2 = document.createElement('h2');
+//         let p = document.createElement("p");
+//         let img = document.createElement("img");
+
+//         h2.innerHTML = `${prophet.name}`;
+
+//         card.append(h2);
+
+//         cards.append(card);
+//     });
+// }
+
+// getProphets();

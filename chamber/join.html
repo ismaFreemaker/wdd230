@@ -48,25 +48,28 @@
 
     <main>
         <form method="get" action="thankyou.html">
-            <section class="warning-box"></section>
-            <label class="top">First Name* <input type="text" name="fname" required></label>
-            <label class="top">Last Name* <input type="text" name="lname" required></label>
-            <label class="top">Business Position <input type="text" name="busposition" pattern="[^A-aZ-z\s-]{7}" ></label>
-            <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            <label class="top">Cell Phone Number <input type="tel" name="tel" required></label>
-            <label class="top">Business name/title <input type="text" name="businessname" required></label>
-            <label class="top">Membership Level 
-                <select name="membershiplevel">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <section class="warning-box"></section>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Business Position <input type="text" name="busposition"></label>
+                <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Cell Phone Number <input type="tel" name="tel" required></label>
+                <label class="top">Business name/title <input type="text" name="businessname" required></label>
+                <label class="top">Membership Level 
+                    <select name="membershiplevel">
                         <option >Please Select a Level </option>
-                    <option value="npmembership">NP Membership</option>
-                    <option value="bronzemembership">Bronze Membership</option>
-                    <option value="silvermembership">Silver Membership</option>
-                    <option value="goldmembership">Gold Membership</option>
-                </select>
-            </label>
-            <label class="top">Business description: <textarea name="businessdescription" cols="30" rows="10"></textarea></label>
-            <label><input type="hidden" value="daysubmitted" id="daySubmitted"></label>
-            <input type="submit" value="Join the Chamber" class="submitBtn">
+                        <option value="npmembership">NP Membership</option>
+                        <option value="bronzemembership">Bronze Membership</option>
+                        <option value="silvermembership">Silver Membership</option>
+                        <option value="goldmembership">Gold Membership</option>
+                    </select>
+                </label>
+                <label class="top">Business description: <textarea name="businessdescription" cols="30" rows="10"></textarea></label>
+                <label><input type="hidden" value="daysubmitted" id="daySubmitted"></label>
+                <input type="submit" value="Join the Chamber" class="submitBtn">
+            </fieldset>
         </form>
         <section class="benefits-box">
             <h2>Membership Levels</h2>
