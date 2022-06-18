@@ -35,7 +35,7 @@ function builtEnterpriseCard(data){
         card.append(pAddress);
         card.append(pPhoneNumber);
         card.append(website);
-        card.append(brand);
+        
 
 
         cards.append(card);
