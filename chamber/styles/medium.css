@@ -94,4 +94,31 @@
         justify-self: stretch;
     }
 
+    /* ----------directory page --------------- */
+    main div.cards.list section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        padding: 1rem 0;
+    }
+
+    main div.cards.list section .gold-membership-level, .silver-membership-level, .bronze-membership-level{
+        display: none;
+    }
+    main div.cards.list h3{
+        margin-left: 0;
+        margin-right: 2rem;
+        text-align: left;
+    }
+    main div.cards.list section p{
+        text-align: start;
+    } 
+    main div.cards.list section:nth-child(3){
+        text-align: center;
+    }
+    main div.cards.list section h3{
+        font-size: smaller;
+
+    }
+
+
 }

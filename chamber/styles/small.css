@@ -338,38 +338,89 @@ main div.cards, main div.cards:hover, main div.cards section:hover {
 }
 main div.cards section img{
     width: 100%;
-    
 }
-main div.cards {
+
+
+main div.cards.grid{
     grid-row: 1/end;
     
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
 }
-
-main div.cards section{
+main div.cards.grid section{
     border: 1px solid black;
     padding: 1rem;    
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: stretch;
+    
+}
+
+main div.cards.list{
+    display: block;
+    border: none;
+    padding: 0;
+}
+main div.cards.list section:nth-child(even){
+    background-color: #c2d3f7;
+}
+main div.cards.list section{
+    border: none;
+    padding: 0rem;
+    margin: 1rem 0;
 
 }
+main div.cards.list section img{
+    display: none;
+}
+main div.cards.list h3, main div.cards.list section p, main div.cards.list section a{
+    padding-left: 0.5rem;
+    padding-bottom: 0.1rem;
+}
+
 main div.cards section h2{
     margin: 0 1rem 1rem 1rem;
     text-align: center;
 }
 main div.cards section p, main div.cards section a{
-    margin: 0.5rem 0;
+    margin: 0.2rem 0;
 }
 
 
+main div.cards section :last-child{
+    font-weight: bolder;
+    background-color: #0e5700;
+    align-self: stretch;
+    padding: 0.5rem;
+    text-align: center;
+
+}
+
+.gold-membership-level{
+    color :gold;
+}
+.silver-membership-level{
+    color: silver;
+}
+.bronze-membership-level{
+    color: #CD7F32;
+}
 
 
+main div.join-heading-and-buttons{
+    display: flex;
+    justify-content: center;
 
+    box-shadow: none;
+    border: 1px solid black;
+}
+main div.join-heading-and-buttons button{
+    margin: 0.2rem;
+
+}
 
 
 
