@@ -330,3 +330,42 @@ main div.thankyou-msg{
     color:#0e5700;
 }
 
+/* ------------------ directory.html  -----------------------*/
+
+main div.cards, main div.cards:hover, main div.cards section:hover {
+    box-shadow: none;
+    border: 1px solid black;
+}
+main div.cards section img{
+    width: 100%;
+    
+}
+main div.cards {
+    grid-row: 1/end;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+main div.cards section{
+    border: 1px solid black;
+    padding: 1rem;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
