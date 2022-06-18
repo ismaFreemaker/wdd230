@@ -21,10 +21,20 @@ function builtEnterpriseCard(data){
         let website = document.createElement('a');   
         
         h2Name.textContent = `${enterprise.name}`;
-        brand.setAttribute('src', `${enterprise.imagelink}`)
-
+        brand.setAttribute('src', `${enterprise.imagelink}`);
+        brand.setAttribute('alt', `${enterprise.name} logo`);
+        brand.setAttribute('loading', 'lazy');
+        pAddress.textContent = `${enterprise.address}`;
+        pPhoneNumber.textContent = `${enterprise.phonenumber}`;
+        website.textContent = `${enterprise.website}`;
+        website.setAttribute('href', `${enterprise.website}`);
+        
 
         card.append(h2Name);
+        card.append(brand);
+        card.append(pAddress);
+        card.append(pPhoneNumber);
+        card.append(website);
         card.append(brand);
 
 
