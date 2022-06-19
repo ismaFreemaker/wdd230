@@ -36,7 +36,6 @@ function builtEnterpriseCard(data){
             membershipLevel.classList.add("gold-membership-level");
         }else if(enterprise.membershiplevel === "Silver"){
             membershipLevel.classList.add("silver-membership-level");
-            
         }else if(enterprise.membershiplevel === "Bronze"){
             membershipLevel.classList.add("bronze-membership-level");
         }
