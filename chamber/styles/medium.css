@@ -99,6 +99,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr ;
         padding: 1rem 0;
+        justify-items: left;
     }
 
     main div.cards.list section .gold-membership-level, .silver-membership-level, .bronze-membership-level{
