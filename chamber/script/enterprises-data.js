@@ -60,11 +60,16 @@ let listButton = document.querySelector('#list-button');
 gridButton.addEventListener("click", () =>{
     cards.classList.add('grid');
     cards.classList.remove('list');
+    gridButton.classList.add("active-button");
+    listButton.classList.remove("active-button");
 });
 
 listButton.addEventListener("click", () => {
     cards.classList.add("list");
     cards.classList.remove("grid");
+    gridButton.classList.remove("active-button");
+    listButton.classList.add("active-button");
+
 });
 
 

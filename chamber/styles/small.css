@@ -355,6 +355,12 @@ main div.join-heading-and-buttons button:hover{
     color: #fff;
     background-color: #ee7f00;
 }
+main div.join-heading-and-buttons button.active-button{
+    color: #ee7f00;
+    background-color: #fff;
+    border: 1px solid #ee7f00;
+    border-radius: 0px;
+}
 main div.join-heading-and-buttons button i{
     width: 20px;
 }
