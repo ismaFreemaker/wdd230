@@ -49,64 +49,103 @@
             <picture>
                 <source srcset="images/main-hero-picture-large.jpg" media="(min-width: 1107px)">
                 <source srcset="images/main-hero-picture-medium.jpg" media="(min-width: 670px)">
-                <source srcset="images/main-hero-picture-small.jpg" media="(min-width: 400px)">
+                <source srcset="images/main-hero-picture-small.jpg" media="(min-width: 400px)" width="350">
                 <img class="hero-image" src="images/main-hero-picture-small.jpg" alt="This is the hero image">
             </picture>
             <h2 class="hero-heading">Welcome to Luján</h2>
-            <button>Join the Chamber</button>
+            <button class="join-main-button"><a href="join.html">Join the Chamber</a></button>
         </div>
         <div class="event-box">
+            <picture>
+                <source srcset="images/in-person-career-fair-blend-large.jpg" media="(min-width: 1107px)">
+                <source srcset="images/in-person-career-fair-blend-medium.jpg" media="(min-width: 670px)">
+                <source srcset="images/in-person-career-fair-blend-small.jpg" media="(min-width: 400px)">
+                <img class="event-image" src="images/in-person-career-fair-blend-small.jpg" alt="Career fair image">
+            </picture>
             <h2>Career Fair</h2>
             <b>Come to the Career Fair to choose your academic path, Tuesday at 10:am</b>
-            <a href="#">more info...</a>
         </div>
         <div class="weather-box">
             <h2>Weather</h2>
-            <img src="images/1530391_weather_clouds_sun_sunny_icon.png" alt="weather icon">
-            <p class="actual-temperature"><span class="temperature">5</span>C°</p>
-            <b>Partly Cloudy</b>
+            <img src="" alt="" id="weather-icon">
+            <p class="actual-temperature"><span id="current-temperature"></span>F°</p>
+            <b id="fig-caption"></b>
             <div>
-                <p>Wind Speed: <span class="windVelocity">5.2</span>km/h</p>
+                <p>Wind Speed: <span class="windVelocity"></span>mph</p>
                 <p>Wind Chill: <span class="windChill"></span></p>
             </div>
         </div>
         <div class="news-release-box">
+            <picture>
+                <source srcset="images/searching-for-a-new-job-large.jpg" media="(min-width: 1107px)">
+                <source srcset="images/searching-for-a-new-job-medium.jpg" media="(min-width: 670px)">
+                <source srcset="images/searching-for-a-new-job-small.jpg" media="(min-width: 400px)">
+                <img class="news-release-image" src="images/searching-for-a-new-job-small.jpg" alt="Searching for a new job image">
+            </picture>
             <h2>Looking for a job?</h2>
             <b>This site will give you some advices and places to look for a job</b>
         </div>
         <div class="join-box">
+            <picture>
+                <source srcset="images/join-chamber-large.jpg" media="(min-width: 1107px)">
+                <source srcset="images/join-chamber-medium.jpg" media="(min-width: 670px)">
+                <source srcset="images/join-chamber-medium.jpg" media="(min-width: 400px)">
+                <img class="spotlight-1-image" src="images/join-chamber-medium.jpg" alt="Clean energy image">
+            </picture> 
             <h2>Join Us!</h2>
-            <p>This is a nice opportunity to increase you network list and open the doors of a cooperative enviroments along with other enterprises!</p>
+            <p><b>This is a excellent opportunity to increase you network list and open the doors of a cooperative enviroments along with other enterprises!</b></p>
+            <button class="join-main-button"><a href="join.html">Join the Chamber</a></button>
         </div>
-
+        
         <div class="spotlights-container">
             <section class="spotlight-1">
+                <picture>
+                    <source srcset="images/clean-energy-large.jpg" media="(min-width: 1107px)">
+                    <source srcset="images/clean-energy-medium.jpg" media="(min-width: 670px)">
+                    <source srcset="images/clean-energy-small.jpg" media="(min-width: 400px)">
+                    <img class="spotlight-1-image" src="images/clean-energy-small.jpg" alt="Clean energy image">
+                </picture> 
                 <h3>Clean energy</h3>
-                <img src="images/clean-energy-icon.svg" alt="Clean energy image">
-                <i>"Try the new renovable energy!"</i>
-                <div>
-                    <p>cleanenergy@renovable.com</p>
-                    <p>+54 9 3743 540139</p>
-                </div>
+                <b>
+                    <i>"Try the new renovable energy!"</i>
+                    <div>
+                        <p>cleanenergy@renovable.com</p>
+                        <p>+54 9 3743 540139</p>
+                    </div>
+                </b>   
             </section>
             <section class="spotlight-2">
+                <picture>
+                    <source srcset="images/computer-place-large.jpg" media="(min-width: 1107px)">
+                    <source srcset="images/computer-place-medium.jpg" media="(min-width: 670px)">
+                    <source srcset="images/computer-place-small.jpg" media="(min-width: 400px)">
+                    <img class="spotlight-2-image" src="images/computer-place-small.jpg" alt="This is the hero image">
+                </picture>    
                 <h3>IT Study Place</h3>
-                <img src="images/computer-icon.svg" alt="computer image">
-                <i>If you don't have a computer and want to study online, come and with us!</i>
-                <div>
-                    <p>Contact@itstudyplace.com</p>
-                    <p>+54 9 3743 548779</p>
-                </div>                
+                <b>
+                    <i>If you don't have a computer and want to study online, come and with us!</i>
+                    <div>
+                        <p>Contact@itstudyplace.com</p>
+                        <p>+54 9 3743 548779</p>
+                    </div>                
+                </b>
             </section>
             <section class="spotlight-3">
+                <picture>
+                    <source srcset="images/wooden-house-construction-large.jpg" media="(min-width: 1107px)">
+                    <source srcset="images/wooden-house-construction-large.jpg" media="(min-width: 670px)">
+                    <source srcset="images/wooden-house-construction-large.jpg" media="(min-width: 400px)">
+                    <img class="spotlight-3-image" src="wooden-house-construction-large.jpg" alt="This is the hero image">
+                </picture>    
                 <h3>Buit your Home</h3>                
-                <img src="images/house-icon.svg" alt="house icon">
-                <i>Find out how the Pre-Made Houses are cheaper and faster to built</i>
-                <div>
-                    <p>premadehouses@builtit.com</p>
-                    <p>+54 9 3743 000001</p>
-                </div>                
-
+                <b>
+                    <i>Find out how the Pre-Made Houses are cheaper and faster to built</i>
+                    <div>
+                        <p>premadehouses@builtit.com</p>
+                        <p>+54 9 3743 000001</p>
+                    </div>                
+                </b>
+                
             </section>
         </div>
     </main>

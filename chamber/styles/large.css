@@ -21,8 +21,8 @@
     main{
         margin: auto 1rem auto 1rem;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto  auto auto ;        
+        grid-template-columns: 1fr 18rem 18rem 1fr;
+        grid-template-rows: 18rem 18.4rem auto ;        
         justify-items: stretch;
     }
     main div{
@@ -42,7 +42,7 @@
     .hero-box img{
         width: 100%;
         position: relative;
-        width: 32rem;
+        /* width: 32rem; */
     }
     .hero-box button{
         position: absolute;
@@ -177,14 +177,20 @@
     section.benefits-box div.bronzemembership h3{
         color: #CD7F32;
     }
+    section.benefits-box div.nonprofitmembership h3{
+        color: #fff;
+    }
+
+    form label.top input {
+        height: 2.5rem;
+    }
 
 
-
-
+    
     /* -------------- thank you site ---------  */
     main div.thankyou-msg{
         grid-column: 2/4;
-
+        
     }
     form .warning-box{
         width: 100%;
@@ -193,9 +199,20 @@
     /* --------------- directory site ------------------ */
     
     
+    main section.join-grids {
+        grid-column: 1/end;
+        grid-row: 1/end;
 
-
-
-
-
+        margin: auto 1rem auto 1rem;
+        display: grid;
+        grid-template-columns: 1fr 18rem 18rem 1fr;
+        grid-template-rows: auto auto auto ;        
+        justify-items: stretch;
+    }
+        
+        
 }
+
+
+
+

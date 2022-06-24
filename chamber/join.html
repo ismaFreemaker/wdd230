@@ -49,7 +49,7 @@
     <main>
         <form method="get" action="thankyou.html">
             <fieldset>
-                <legend>Applicant Information</legend>
+                <legend>Your Information</legend>
                 <section class="warning-box"></section>
                 <label class="top">First Name* <input type="text" name="fname" required></label>
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
@@ -57,6 +57,10 @@
                 <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label class="top">Cell Phone Number <input type="tel" name="tel" required></label>
                 <label class="top">Business name/title <input type="text" name="businessname" required></label>
+                
+            </fieldset> 
+            <fieldset>
+                <legend>Choose your Membership Level</legend>
                 <label class="top">Membership Level 
                     <select name="membershiplevel">
                         <option >Please Select a Level </option>
@@ -66,6 +70,9 @@
                         <option value="goldmembership">Gold Membership</option>
                     </select>
                 </label>
+            </fieldset>
+            <fieldset>
+                <legend>Describe your Business</legend>
                 <label class="top">Business description: <textarea name="businessdescription" cols="30" rows="10"></textarea></label>
                 <label><input type="hidden" value="daysubmitted" id="daySubmitted"></label>
                 <input type="submit" value="Join the Chamber" class="submitBtn">
@@ -93,7 +100,7 @@
                     <ul>
                         <li>Access to half of business capacitations</li>
                         <li>Advertisments posted two times a week in the spotlights</li>
-                        <li>50% event discounts</li>
+                        <li>40% event discounts</li>
                     </ul>
                 </p>
             </div>
@@ -105,11 +112,21 @@
                     <ul>
                         <li>Access to quarter of business capacitations</li>
                         <li>Advertisments posted three times a week in the spotlights</li>
-                        <li>50% event discounts</li>
+                        <li>30% event discounts</li>
                     </ul>
                 </p>
             </div>
-            
+            <div class="nonprofitmembership">
+                <h3>Non Profit Membership</h3>
+                <p>
+                    <b>Cost: </b>No cost<br>
+                    <b>Benefits: </b>
+                    <ul>
+                        <li>Access to all of business capacitations</li>
+                        <li>Advertisments posted four times a week in the spotlights</li>
+                        <li>40% event discounts</li>
+                    </ul>
+                </p>
 
         </section>
     </main>

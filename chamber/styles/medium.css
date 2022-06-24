@@ -49,10 +49,49 @@
     .news-release-box{
         grid-row: 2;
     }
+    /* this is the join chamber div */
     .join-box{
         display: block;
         grid-row: 4;
+        position: relative;
+        padding: 0;
     }
+    .join-box img{
+        width: 100%;
+        display: block;    
+    }
+    .join-box h2{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        color: #fff;
+        background-color: #0e570088;
+        padding: 0.5rem;
+    }
+    main div.join-box p {
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        color: #fff;
+        background-color: #00000088;
+        margin: 0 0px 10px 0;
+        padding: 0.5rem;
+        }
+    main div.join-box button.join-main-button{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+    main div.join-box button.join-main-button{
+        text-decoration: none;
+        color: #fff;
+    }
+    main div.join-box button.join-main-button:hover{
+        box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.5);
+        background-color: #0e5700;
+    }
+    
+    /* this is the spotlights container */
     .spotlights-container{
         grid-row: 3;
         flex-direction: row;
@@ -95,15 +134,23 @@
     }
 
     /* ----------directory page --------------- */
+    main section.join-grids{
+        grid-column: 1/end;
+    }
+
+    
     main div.cards.list section{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr ;
         padding: 1rem 0;
         justify-items: left;
     }
+    /* main div.cards.grid section{
+        box-shadow: 0 1px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    } */
 
     main div.cards.list section .gold-membership-level, .silver-membership-level, .bronze-membership-level{
-        display: none;
+        display: block;
     }
     main div.cards.list h3{
         margin-left: 0;

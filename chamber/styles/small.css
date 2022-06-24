@@ -35,6 +35,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     --footer-font-color: #fff;
     --footer-location-link-font-color: #ee7f00;
 }
+b{
+    letter-spacing: 0.9px;
+}
 
 #meeting-box-advice{
     background-color: var(--footer-background-color);
@@ -118,6 +121,22 @@ nav ul.open{display: block;}
 main{
     display: block;
 }
+
+main button.join-main-button{
+    padding: 10px;
+    background-color: #ee7f00;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-family: "Radio Canada", monospace, sans-serif;
+    border-radius: 0rem;
+    border: 1px solid transparent;
+}
+main button.join-main-button a{
+    text-decoration: none;
+    color: #fff;
+}
+
 main > div{
     height: auto;
     background-color: var(--paragraph-background-color);
@@ -133,10 +152,11 @@ main .hero-box {
     padding: 0;
 }
 main .hero-box .hero-image{
-    position: relative;
+    /* position: relative; */
     width: 100%;
     margin: 0;
     padding: 0;
+    display: block;
 }
 main .hero-box .hero-heading{
     display: none;
@@ -152,25 +172,57 @@ main .hero-box button{
     position: absolute;
     right: 10px;
     bottom: 10px;
-    padding: 10px;
-    background-color: #ee7f00;
-    color: #fff;
-    font-weight: bolder;
-    font-size: 1rem;
-    font-family: "Radio Canada", monospace, sans-serif;
-    border-radius: 0rem;
-    border: 1px solid transparent;
+    
 }
 main .hero-box button:hover{
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.5);
     background-color: #0e5700;
-    
-
 }
 
 .join-box {display: none;}
 
+/* --This is from the event box → career fair --  */
+main div.event-box, main .news-release-box, main section.spotlight-1, 
+main section.spotlight-2, main section.spotlight-3{
+    position: relative;
+    padding: 0;
+}
+main div.event-box img, main .news-release-box img, 
+main section.spotlight-1 img, main section.spotlight-2 img, 
+main section.spotlight-3 img{
+    width: 100%;
+    display: block;
+}
+main div.event-box h2, main .news-release-box h2, 
+main section.spotlight-1 h3, main section.spotlight-2 h3,
+main section.spotlight-3 h3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #fff;
+    background-color: #0e570088;
+    padding: 0.5rem;
+}
+main div.event-box b, main .news-release-box b, 
+main section.spotlight-1 b, main section.spotlight-2 b,
+main section.spotlight-3 b{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    color: #fff;
+    background-color: #00000088;
+    margin: 0 0px 10px 0;
+    padding: 0.5rem;
+} 
+
+/* --This is from job search box-- */
+
+
+
+
+/* -- This is from the weather box -- */
 .weather-box{
-    margin: 0.5rem ;
+    margin: 0.5rem;
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -186,11 +238,22 @@ main .hero-box button:hover{
 
 
 
+/* -- spotlights container-- */
 .spotlights-container{display: flex; flex-direction: column; height: auto;}
-.spotlights-container .spotlight-1, .spotlights-container .spotlight-2{border: 1px solid grey; flex-grow: 1; padding: 0.3rem; display: flex; flex-direction: column; text-align: center;}
+.spotlights-container .spotlight-1, .spotlights-container .spotlight-2{
+    border: 1px solid grey; 
+    flex-grow: 1;
+    display: flex; 
+    flex-direction: column; 
+    text-align: center;
+    margin-bottom: 1rem;
+}
 .spotlights-container section img{width: 100px; margin: 0 auto 0 auto}
 .spotlights-container section div{margin: 0; padding: 0;}
 .spotlights-container section p{margin: 0; padding: 0;}
+.spotlights-container h3{
+    margin: 0 auto 1rem auto;
+}
 
 .spotlight-3{display: none; }
 
@@ -230,9 +293,9 @@ footer span .location-link{text-decoration: none; color: var(--footer-location-l
 
 
 
-
+/* ---------------------------------------------- */
 /* ------------ Discover website --------------- */
-
+/* ---------------------------------------------- */
 
 .lujan-images-box h2, .lujan-statistics-box h2 {
     margin-top: 1.2rem;    margin-bottom: 0.5rem;
@@ -264,15 +327,19 @@ main img {
     text-align: center;
 }
 
-
+/* ----------------------------------------------- */
 /* ----------------  JOIN.HTML ---------------- */
-
+/* ----------------------------------------------- */
 
 form {
     margin: 0 1rem;
 }
 fieldset{
     border-top: solid #ee7f00 5px;
+    margin-bottom: 1rem;
+}
+legend {
+    padding: 0 0.5rem 0 0.5rem;
 }
 form label.top {
     display: block;
@@ -288,6 +355,9 @@ form label.top input, form label.top select, form label.top textarea {
     border-radius: 0rem;
     width: 100%;
     max-width: 20rem;
+}
+form label.top input {
+    height: 3rem;
 }
 
 form input.submitBtn {
@@ -321,16 +391,20 @@ form .warning-box{
 main section.benefits-box {
     display: none;
 }
+/* ---------------------------------------------- */
 /* ------------thank you site ------------------- */
-main div.thankyou-msg{
-    color:#0e5700;
-}
+/* ---------------------------------------------- */
 
 main div.thankyou-msg{
     color:#0e5700;
 }
 
+main div.thankyou-msg{
+    color:#0e5700;
+}
+/* ---------------------------------------------------------- */
 /* ------------------ directory.html  -----------------------*/
+/* ---------------------------------------------------------- */
 
 main div.join-heading-and-buttons{
     align-self: flex-start;
@@ -369,6 +443,7 @@ main div.join-heading-and-buttons h2.discovery-heading{
     margin-left: 0px;
     color: var(--headings-font-color);
     justify-self: flex-start;
+    color: #3D1F00;
 }
 
 main div.cards.list{
@@ -411,16 +486,17 @@ main div.cards.grid{
     gap: 1rem;
 }
 main div.cards.grid section{
-    border: 1px solid black;
-    padding: 1rem;    
+    position: relative;
+    box-shadow: 0 5px 12px -2px blue;
     
+
+    padding: 1rem;        
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: stretch;
     
 }
-
 
 main div.cards section p, main div.cards section a{
     margin: 0.2rem 0;
@@ -445,6 +521,7 @@ main div.cards section :last-child{
 .bronze-membership-level{
     color: #CD7F32;
 }
+
 
 
 
