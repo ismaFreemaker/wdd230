@@ -21,8 +21,8 @@
     main{
         margin: auto 1rem auto 1rem;
         display: grid;
-        grid-template-columns: 1fr 18rem 18rem 1fr;
-        grid-template-rows: 18rem 18.4rem auto ;        
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr auto ;        
         justify-items: stretch;
     }
     main div{
@@ -69,18 +69,20 @@
         height: auto;
         grid-column: 4;
         grid-row: 1/4;
-
+        
         flex-direction: column;
         justify-content: space-evenly;
     }
+    .spotlights-container section{
+        margin-bottom: 0;
+                
+    }
     /* setting the properties of spotlight-3 here because in the small appears though the display:none*/
+
     .spotlight-3{
-        display: flex;
+        display: block;
         border: 1px solid grey; 
-        flex-grow: 1; 
         padding: 0.3rem; 
-        display: flex; 
-        flex-direction: column; 
         text-align: center;
     }
     .news-release-box{
