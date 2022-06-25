@@ -213,6 +213,23 @@
     }
         
         
+    
+    /* -----------------------------------------------------------*/
+    /* -------------------- contact.html -------------------------*/
+    /* -----------------------------------------------------------*/
+    main .contact-us-heading{
+        grid-column: 1;
+        grid-row: 1;
+        margin-top: 0px;
+        margin-left: 15px;
+        align-self: start;
+        color: #3D1F00;
+        /* align-self: start; */
+    }
+    main .contact-us-form{
+        grid-row: 1/end;
+        margin-top: 50px;
+    }
 }
 
 
