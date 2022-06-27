@@ -98,6 +98,7 @@ nav ul li a {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
     padding: 0.8rem;
     color: var(--nav-link-font-color);
+    transition: 200ms;
 }
 nav ul li a.active{background-color: var(--nav-link-active-background-color); color: var(--nav-link-active-font-color); border-bottom: 3px solid var(--nav-link-hover-background-color);}
 nav ul li a:hover{background-color: var(--nav-link-hover-background-color); color: var(--nav-link-hover-font-color);}
