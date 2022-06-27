@@ -39,6 +39,8 @@ function builtEnterpriseCard(data){
         }else if(enterprise.membershiplevel === "Bronze"){
             membershipLevel.classList.add("bronze-membership-level");
         }
+        card.classList.add('enterprise-box-style');
+
         card.append(h3Name);
         card.append(brand);
         card.append(pAddress);
