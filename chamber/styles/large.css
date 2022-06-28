@@ -35,8 +35,9 @@
     main .spotlights-container:hover{
         box-shadow: 1px 1px 8px 1px #000;
     } 
-    .hero-box{
+    div.hero-box{
         position: relative;
+        background-color: transparent;
     }
     .hero-box img{
         width: 100%;
@@ -59,6 +60,12 @@
     .weather-box{
         grid-column: 1;
         grid-row: 2;
+    }
+    .weather-box p{
+        margin: 0px;
+    }
+    .weather-box div{
+        margin: 0px;
     }
     .join-box{
         grid-column: 1;
