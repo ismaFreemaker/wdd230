@@ -98,7 +98,7 @@ nav ul li a {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
     padding: 0.8rem;
     color: var(--nav-link-font-color);
-    transition: 200ms;
+    transition: 250ms;
 }
 nav ul li a.active{background-color: var(--nav-link-active-background-color); color: var(--nav-link-active-font-color); border-bottom: 3px solid var(--nav-link-hover-background-color);}
 nav ul li a:hover{background-color: var(--nav-link-hover-background-color); color: var(--nav-link-hover-font-color);}
@@ -110,7 +110,7 @@ nav ul.open{display: block;}
 #hamburgerBtn span:nth-child(2){ display: none;}
 
 #hamburgerBtn.open span:nth-child(1){ display: none;}
-#hamburgerBtn.open span:nth-child(2){ display: block; margin-right: 0;}
+#hamburgerBtn.open span:nth-child(2){ display: block; margin-right: 0; }
 
 #meeting-box-advice.dayDisplay {
     display: block;
@@ -534,10 +534,20 @@ main div.cards.list .enterprise-box-style{
 main .contact-us-heading{
     margin-left: 1rem;
     margin-bottom: 1rem;
+    color: #3D1F00;
 }
 
+main .site-contact-info h3{
+    margin-bottom: 1.5rem;
+    color: #3D1F00;
+}
 
-
+main .site-contact-info h4{
+    color: #ee7f00;
+}
+main .site-contact-info p{
+    margin-left: 0.5rem;
+}
 
 
 

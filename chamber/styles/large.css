@@ -229,6 +229,10 @@
         grid-row: 1/end;
         margin-top: 50px;
     }
+    main .site-contact-info{
+        justify-self: center;
+
+    }
 }
 
 
