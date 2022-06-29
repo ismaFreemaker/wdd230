@@ -167,8 +167,9 @@
         color: #3D1F00;
     }
     section.benefits-box h3{
-        background-color: #0e5700;
+        background-color: white;
         margin-left: 0px;
+        border-bottom: 5px solid ;
         padding: 0.2rem;
         width: 100%;
     }
@@ -176,17 +177,22 @@
         border: 1px solid #00000088;
         padding: 0.5rem;
     }
+
     section.benefits-box div.goldmembership h3{
         color: gold;
+        background-color: grey;
     }
     section.benefits-box div.silvermembership h3{
-        color: silver;
+        color: #9C9C9C;
+        background-color: black;
     }
     section.benefits-box div.bronzemembership h3{
-        color: #CD7F32;
+        color: #ffa500;
+        background-color: #3D1F00;
     }
     section.benefits-box div.nonprofitmembership h3{
-        color: #fff;
+        color: green;
+        background-color: yellowgreen;
     }
 
     form label.top input {

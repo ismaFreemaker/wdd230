@@ -440,10 +440,10 @@ main div.join-heading-and-buttons button i{
 }
 
 main div.join-heading-and-buttons h2.discovery-heading{
-    margin-left: 1rem;
-    color: var(--headings-font-color);
+    margin-left: 0.5rem;
     justify-self: flex-start;
     color: #3D1F00;
+    font-size: 2rem;
 }
 
 main div.cards.list{
@@ -464,6 +464,10 @@ main div.cards.list section img{
 main div.cards.list h3, main div.cards.list section p, main div.cards.list section a{
     padding-left: 0.5rem;
     padding-bottom: 0.1rem;
+}
+main div.cards.list h3{
+    color: rgb(54, 54, 54);
+    font-size: 1.5rem;
 }
 
 main div.cards, main div.cards:hover, main div.cards section:hover, div.join-heading-and-buttons:hover {
@@ -505,7 +509,6 @@ main div.cards section p, main div.cards section a{
 
 main div.cards section :last-child{
     font-weight: bolder;
-    background-color: #0e5700;
     align-self: stretch;
     padding: 0.5rem;
     text-align: center;
@@ -514,12 +517,16 @@ main div.cards section :last-child{
 
 .gold-membership-level{
     color :gold;
+    background-color: grey;
+
 }
 .silver-membership-level{
     color: silver;
+    background-color: black;
 }
 .bronze-membership-level{
-    color: #CD7F32;
+    color: orange;
+    background-color: #3D1F00;
 }
 
 main div.cards.list .enterprise-box-style{
@@ -547,6 +554,7 @@ main .site-contact-info h4{
 }
 main .site-contact-info p{
     margin-left: 0.5rem;
+    margin-top: 0.2rem;
 }
 
 

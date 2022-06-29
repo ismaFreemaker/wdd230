@@ -6,6 +6,7 @@
             "phonenumber": "02323 42-4327",
             "website": "https://www.ecordero.com.ar/",
             "imagelink": "https://www.ecordero.com.ar/v2/wp-content/uploads/2021/12/logo_cordero_400_final.png",
+            "propaganda": "We make the best auto parts to International Enterprises",
             "membershiplevel": "Gold"
         },
         {
@@ -14,6 +15,7 @@
             "phonenumber": "02323 42-7591",
             "website": "http://www.colaoplasticos.com.ar/",
             "imagelink": "https://ismafreemaker.github.io/wdd230/chamber/images/LogoColaoPlasticos.bmp",
+            "propaganda": "Making lids for glass containers from 1970",
             "membershiplevel":"Gold"
 
         },
@@ -23,6 +25,7 @@
             "phonenumber": "011 4265-3140",
             "website": "http://www.tecnicacdc.com.ar/",
             "imagelink": "https://ismafreemaker.github.io/wdd230/chamber/images/logo-tecnica-cdc-1.jpg",
+            "propaganda": "Tecnology in services",
             "membershiplevel":"Bronze"
 
         },
@@ -32,6 +35,7 @@
             "phonenumber": "011 5051-6124",
             "website": "https://sivsabaires.com.ar/",
             "imagelink": "https://sivsabaires.com.ar/img/logo.png",
+            "propaganda":"Do you have a project? We built it for you!",
             "membershiplevel":"Silver"
 
         },
@@ -41,6 +45,7 @@
             "phonenumber": "02323 42-2985",
             "website": "https://textilkopruch.com/",
             "imagelink": "https://ismafreemaker.github.io/wdd230/chamber/images/logos-kopruch-1.png",
+            "propaganda":"Wherever you need a textil work, we are there for you!",
             "membershiplevel":"Gold"
 
         }, 
@@ -50,6 +55,7 @@
             "phonenumber": "02323 44-1900",
             "website": "https://www.cartocor.com/planta-cartocor-lujan/",
             "imagelink": "https://www.cartocor.com/wp-content/uploads/2016/05/logo-small.png",
+            "propaganda":"The International Cardboard and Paperboard Industry",
             "membershiplevel":"Silver"
 
         }, 
@@ -59,6 +65,7 @@
             "phonenumber": "02323 42-5691",
             "website": "https://iassa.com.ar/",
             "imagelink": "https://iassa.com.ar/wp-content/uploads/Logo-Iassa-gris-horizontal.png",
+            "propaganda":"Choose the ice cream you wish!",
             "membershiplevel":"Bronze"
 
         },
@@ -68,6 +75,7 @@
             "phonenumber": "02323 42-3735",
             "website": "https://www.gardeembutidos.com/",
             "imagelink": "https://irp-cdn.multiscreensite.com/4df0e9cd/DESKTOP/png/557667-garde-embutidos-logo.png",
+            "propaganda":"Don't let pass your weekend without these delicious meals",
             "membershiplevel":"Gold"
 
         }, 
@@ -77,6 +85,7 @@
             "phonenumber": "02323 27-4285",
             "website": "https://laforestamaderas.com.ar/",
             "imagelink": "https://laforestamaderas.com.ar/wp-content/uploads/2022/02/logolLAFORESTAweb-1.png",
+            "propaganda":"We built the strongest structures for your safety",
             "membershiplevel":"Bronze"
 
         }

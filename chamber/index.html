@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./styles/small.css">
   <link rel="stylesheet" href="./styles/medium.css">
   <link rel="stylesheet" href="./styles/large.css">
+  <script src="script/spotlightsPropaganda.js" defer></script>
   <script src="script/dinamic-index.js" defer></script>
   <script src="script/stringsUse.js" defer></script>
   <script src="script/wind-chill.js" defer></script>
@@ -99,14 +100,11 @@
         
         <div class="spotlights-container">
             <section class="spotlight-1">
-                <picture>
-                    <source srcset="images/clean-energy-large.jpg" media="(min-width: 1107px)">
-                    <source srcset="images/clean-energy-medium.jpg" media="(min-width: 670px)">
-                    <source srcset="images/clean-energy-small.jpg" media="(min-width: 400px)">
-                    <img class="spotlight-1-image" src="images/clean-energy-small.jpg" alt="Clean energy image">
+                <picture class="spotlight1-image-container">
+                    
                 </picture> 
-                <h3>Clean energy</h3>
-                <b>
+                <h3 class="spotlight1-heading">Clean energy</h3>
+                <b class="spotlight1-info">
                     "Try the new renovable energy!" cleanenergy@renovable.com +54 9 3743 540139
                 </b>   
             </section>
@@ -117,7 +115,7 @@
                     <source srcset="images/computer-place-small.jpg" media="(min-width: 400px)">
                     <img class="spotlight-2-image" src="images/computer-place-small.jpg" alt="Computer place image">
                 </picture>    
-                <h3>IT Study Place</h3>
+                <h3 class="spotlight2-heading">IT Study Place</h3>
                 <p><b>
                     If you don't have a computer and want to study online, come with us!<br>
                     Contact@itstudyplace.com</br>
@@ -131,7 +129,7 @@
                     <source srcset="images/wooden-house-construction-large.jpg" media="(min-width: 400px)">
                     <img class="spotlight-3-image" src="wooden-house-construction-large.jpg" alt="wooden houses image">
                 </picture>    
-                <h3>Built your Home</h3>                
+                <h3 class="spotlight3-heading">Built your Home</h3>                
                 <p><b>
                     Find out how the Pre-Made Houses are cheaper and faster to built<br>                    
                     premadehouses@builtit.com<br>

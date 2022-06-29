@@ -49,6 +49,8 @@ async function apiFetch(){
     
     
     function displayResults(weatherdata){
+
+        currentTemp.innerHTML = ``;
         currentTemp.innerHTML = `<strong>${weatherdata.main.temp.toFixed(0)}</strong>`;
         
         const windSpeed = parseFloat(weatherdata.wind.speed);
