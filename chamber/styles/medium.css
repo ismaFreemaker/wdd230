@@ -77,7 +77,7 @@
         margin: 0 0px 10px 0;
         padding: 0.5rem;
         }
-    main div.join-box button.join-main-button{
+    main div.join-box .join-main-button{
         position: absolute;
         right: 10px;
         bottom: 10px;

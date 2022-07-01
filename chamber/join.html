@@ -59,6 +59,12 @@
                 
             </fieldset> 
             <fieldset>
+                <legend>Describe your Business</legend>
+                <label class="top">Business name/title <input type="text" name="businessname" required></label>
+                <label class="top">Business description: <textarea name="businessdescription" cols="30" rows="10"></textarea></label>
+                <label><input type="hidden" value="daysubmitted" id="daySubmitted"></label>
+            </fieldset>
+            <fieldset>
                 <legend>Choose your Membership Level</legend>
                 <label class="top">Membership Level 
                     <select name="membershiplevel">
@@ -69,14 +75,9 @@
                         <option value="goldmembership">Gold Membership</option>
                     </select>
                 </label>
-            </fieldset>
-            <fieldset>
-                <legend>Describe your Business</legend>
-                <label class="top">Business name/title <input type="text" name="businessname" required></label>
-                <label class="top">Business description: <textarea name="businessdescription" cols="30" rows="10"></textarea></label>
-                <label><input type="hidden" value="daysubmitted" id="daySubmitted"></label>
                 <input type="submit" value="Join the Chamber" class="submitBtn">
             </fieldset>
+            
         </form>
         <section class="benefits-box">
             <h2>Membership Levels</h2>

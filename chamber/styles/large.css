@@ -81,10 +81,14 @@
     }
     .spotlights-container section{
         margin-bottom: 0;
-                
+        
     }
     /* setting the properties of spotlight-3 here because in the small appears though the display:none*/
-
+    .spotlights-container :nth-child(3), .spotlights-container :nth-child(4){
+        display: block;
+        text-align: center;
+    }
+    
     .spotlight-3{
         display: block;
         border: 1px solid grey; 
