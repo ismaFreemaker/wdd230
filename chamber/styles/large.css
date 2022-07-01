@@ -162,10 +162,11 @@
     main section.benefits-box{
         grid-column: 3/5;
         grid-row: 1/end;
-        border: 1px solid #00000088;
+        /* border: 1px solid #00000088; */
         border-top: 5px solid #ee7f00;
+        /* border-left: 5px solid #ee7f00; */
         padding: 1rem;
-        margin-top: 0.5rem;
+        margin-top: 0.55rem;
     }
     main section.benefits-box h2{
         color: #3D1F00;
@@ -177,8 +178,16 @@
         padding: 0.2rem;
         width: 100%;
     }
+    
+    section.benefits-box p{
+        
+        margin: 0.4rem 0 0.4rem 0.5rem;
+    }
+    section.benefits-box div ul {
+        margin-top: -8px;
+    }
     section.benefits-box div{
-        border: 1px solid #00000088;
+        /* border: 1px solid #00000088; */
         padding: 0.5rem;
     }
 
@@ -240,15 +249,23 @@
         margin-left: 15px;
         align-self: start;
         color: #3D1F00;
+        font-size: 2.5rem;
         /* align-self: start; */
     }
-    main .contact-us-form{
+    main form.contact-us-form{
         grid-row: 1/end;
-        margin-top: 50px;
+        margin-top: 80px;
     }
-    main .site-contact-info{
+    main form.contact-us-form h3{
+        margin-bottom: 1rem;
+        color: #3D1F00;
+    }
+    main div.site-contact-info{
         justify-self: center;
-
+        margin-top: 65px;
+    }
+    main div.site-contact-info h3{
+        margin-left: -15px;
     }
 }
 

@@ -549,9 +549,13 @@ main .contact-us-heading{
     color: #3D1F00;
 }
 
+main .site-contact-info{
+    box-shadow: none;
+}
 main .site-contact-info h3{
     margin-bottom: 1.5rem;
     color: #3D1F00;
+    
 }
 
 main .site-contact-info h4{
