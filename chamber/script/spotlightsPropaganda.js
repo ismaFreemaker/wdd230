@@ -14,7 +14,7 @@ async function publicEnterprises(){
 function putEnterprisesInSpotligths(data){
     
 
-    console.log(data.enterprises[0].name);
+    // console.log(data.enterprises[0].name);
     const randomEnterprises = [];
     for (let i = 0; i < 3; i++){ //this loop is for the random enterprises
         let randomElementNumber = getRandomInt(data.enterprises.length);
@@ -24,7 +24,7 @@ function putEnterprisesInSpotligths(data){
         }
         
     }
-    console.log(randomEnterprises);
+    // console.log(randomEnterprises);
 
 
     randomEnterprises.forEach(enterprise => {
