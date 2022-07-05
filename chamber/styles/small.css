@@ -304,7 +304,9 @@ footer span .location-link{text-decoration: none; color: var(--footer-location-l
 /* ---------------------------------------------- */
 /* ------------ Discover website --------------- */
 /* ---------------------------------------------- */
-
+.lujan-statistics-box, .lujan-statistics-box:hover{
+    box-shadow: none;
+}
 .lujan-images-box h2, .lujan-statistics-box h2 {
     margin-top: 1.2rem;    margin-bottom: 0.5rem;
 }
