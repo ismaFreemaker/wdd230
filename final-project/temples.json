@@ -1,0 +1,165 @@
+{
+    "temples":  [
+        {
+            "place": "Buenos Aires, Argentina",
+            "address": "Aut. Tte. Gral. Riccheri N° 4955, B1778DUA Ciudad Evita, Buenos Aires, Argentina",
+            "telephonenumber": "(54) 11-4693-9700",
+            "email": "baire-hostal@ldschurch.org",
+            "imagelink": "https://assets.ldscdn.org/9a/a4/9aa47f12b3dee10a44c03ce1928aadfffe0acd57/buenos_aires_argentina_temple.jpg",
+            "history": [
+                {
+                    "announced":"2 April 1980",
+                    "groundbreaking":"20 April 1983",
+                    "dedicated":"17 January 1986",
+                    "rededicated":"9 September 2012"
+                }
+            ],
+            "sessionschedules": [
+                {
+                    "endowment": "Tuesday to Friday: 8:00, 9:00, 10:00, 11:00, 12:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00 00 \nSaturdays: 6:30 am, 7:15 am, 8:00 am, 9:00 am, 9:45 am, 10:30 am, 11:30 am, 12:15 pm, 1:00 pm, 2:00 pm, 3:00 pm, 4:00 pm, five pm",
+                    "sealings": "Every day morning and afternoon - Call to schedule",
+                    "baptistery": "Tuesday to Friday: from 8:00 to 20:00 \nSaturdays: 6:30 a.m. to 5:00 p.m."
+                }
+            ],
+            "templeclosureschedule": [
+                {
+                    "2022":[
+                        "Saturday, 1 October 2022",
+                        "Monday, 3 October 2022 - Monday, 17 October 2022",
+                        "Saturday, 24 December 2022 - Sunday, 25 December 2022",
+                        "Saturday, 31 December 2022 - Sunday, 1 January 2023"
+                    ]
+                },
+                {
+                    "2023":[
+                        "Saturday, 1 April 2023",
+                        "Saturday, 7 October 2023",
+                        "Monday, 9 October 2023 - Monday, 23 October 2023"
+                    ]
+                }
+            ],
+            "templeservices":["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"]
+        },
+        {
+            "place": "Buenos Aires, Argentina",
+            "address": "Aut. Tte. Gral. Riccheri N° 4955, B1778DUA Ciudad Evita, Buenos Aires, Argentina",
+            "telephonenumber": "(54) 11-4693-9700",
+            "email": "baire-hostal@ldschurch.org",
+            "imagelink": "https://assets.ldscdn.org/9a/a4/9aa47f12b3dee10a44c03ce1928aadfffe0acd57/buenos_aires_argentina_temple.jpg",
+            "history": [
+                {
+                    "announced":"2 April 1980",
+                    "groundbreaking":"20 April 1983",
+                    "dedicated":"17 January 1986",
+                    "rededicated":"9 September 2012"
+                }
+            ],
+            "sessionschedules": [
+                {
+                    "endowment": "Tuesday to Friday: 8:00, 9:00, 10:00, 11:00, 12:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00 00 \nSaturdays: 6:30 am, 7:15 am, 8:00 am, 9:00 am, 9:45 am, 10:30 am, 11:30 am, 12:15 pm, 1:00 pm, 2:00 pm, 3:00 pm, 4:00 pm, five pm",
+                    "sealings": "Every day morning and afternoon - Call to schedule",
+                    "baptistery": "Tuesday to Friday: from 8:00 to 20:00 \nSaturdays: 6:30 a.m. to 5:00 p.m."
+                }
+            ],
+            "templeclosureschedule": [
+                {
+                    "2022":[
+                        "Saturday, 1 October 2022",
+                        "Monday, 3 October 2022 - Monday, 17 October 2022",
+                        "Saturday, 24 December 2022 - Sunday, 25 December 2022",
+                        "Saturday, 31 December 2022 - Sunday, 1 January 2023"
+                    ]
+                },
+                {
+                    "2023":[
+                        "Saturday, 1 April 2023",
+                        "Saturday, 7 October 2023",
+                        "Monday, 9 October 2023 - Monday, 23 October 2023"
+                    ]
+                }
+            ],
+            "templeservices":["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"]
+            
+        },
+        {
+            "place": "Buenos Aires, Argentina",
+            "address": "Aut. Tte. Gral. Riccheri N° 4955, B1778DUA Ciudad Evita, Buenos Aires, Argentina",
+            "telephonenumber": "(54) 11-4693-9700",
+            "email": "baire-hostal@ldschurch.org",
+            "imagelink": "https://assets.ldscdn.org/9a/a4/9aa47f12b3dee10a44c03ce1928aadfffe0acd57/buenos_aires_argentina_temple.jpg",
+            "history": [
+                {
+                    "announced":"2 April 1980",
+                    "groundbreaking":"20 April 1983",
+                    "dedicated":"17 January 1986",
+                    "rededicated":"9 September 2012"
+                }
+            ],
+            "sessionschedules": [
+                {
+                    "endowment": "Tuesday to Friday: 8:00, 9:00, 10:00, 11:00, 12:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00 00 \nSaturdays: 6:30 am, 7:15 am, 8:00 am, 9:00 am, 9:45 am, 10:30 am, 11:30 am, 12:15 pm, 1:00 pm, 2:00 pm, 3:00 pm, 4:00 pm, five pm",
+                    "sealings": "Every day morning and afternoon - Call to schedule",
+                    "baptistery": "Tuesday to Friday: from 8:00 to 20:00 \nSaturdays: 6:30 a.m. to 5:00 p.m."
+                }
+            ],
+            "templeclosureschedule": [
+                {
+                    "2022":[
+                        "Saturday, 1 October 2022",
+                        "Monday, 3 October 2022 - Monday, 17 October 2022",
+                        "Saturday, 24 December 2022 - Sunday, 25 December 2022",
+                        "Saturday, 31 December 2022 - Sunday, 1 January 2023"
+                    ]
+                },
+                {
+                    "2023":[
+                        "Saturday, 1 April 2023",
+                        "Saturday, 7 October 2023",
+                        "Monday, 9 October 2023 - Monday, 23 October 2023"
+                    ]
+                }
+            ],
+            "templeservices":["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"]
+        },
+        {
+            "place": "Buenos Aires, Argentina",
+            "address": "Aut. Tte. Gral. Riccheri N° 4955, B1778DUA Ciudad Evita, Buenos Aires, Argentina",
+            "telephonenumber": "(54) 11-4693-9700",
+            "email": "baire-hostal@ldschurch.org",
+            "imagelink": "https://assets.ldscdn.org/9a/a4/9aa47f12b3dee10a44c03ce1928aadfffe0acd57/buenos_aires_argentina_temple.jpg",
+            "history": [
+                {
+                    "announced":"2 April 1980",
+                    "groundbreaking":"20 April 1983",
+                    "dedicated":"17 January 1986",
+                    "rededicated":"9 September 2012"
+                }
+            ],
+            "sessionschedules": [
+                {
+                    "endowment": "Tuesday to Friday: 8:00, 9:00, 10:00, 11:00, 12:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00 00 \nSaturdays: 6:30 am, 7:15 am, 8:00 am, 9:00 am, 9:45 am, 10:30 am, 11:30 am, 12:15 pm, 1:00 pm, 2:00 pm, 3:00 pm, 4:00 pm, five pm",
+                    "sealings": "Every day morning and afternoon - Call to schedule",
+                    "baptistery": "Tuesday to Friday: from 8:00 to 20:00 \nSaturdays: 6:30 a.m. to 5:00 p.m."
+                }
+            ],
+            "templeclosureschedule": [
+                {
+                    "2022":[
+                        "Saturday, 1 October 2022",
+                        "Monday, 3 October 2022 - Monday, 17 October 2022",
+                        "Saturday, 24 December 2022 - Sunday, 25 December 2022",
+                        "Saturday, 31 December 2022 - Sunday, 1 January 2023"
+                    ]
+                },
+                {
+                    "2023":[
+                        "Saturday, 1 April 2023",
+                        "Saturday, 7 October 2023",
+                        "Monday, 9 October 2023 - Monday, 23 October 2023"
+                    ]
+                }
+            ],
+            "templeservices":["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"]
+        }
+    ]
+}

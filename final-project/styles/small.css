@@ -1,0 +1,616 @@
+/* this is the CSS style for the Luján chamber of commerce  */
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+:root{
+    --header-background-color: #fff;
+    --heading-logo-font-color: #ee7f00;
+    --headings-font-color: #000;
+
+    --span-currentDay-font-color: #fff;
+    --span-currentDay-background-color: #00656F;
+
+    --hamburgerBtn-font-color: #00656F;
+    --hamburgerBtn-background-color: #3D1F00;
+
+    --nav-background-color: #1da4b1;
+    --nav-link-background-color: #fff;
+    --nav-link-font-color: #3D1F00;
+    --nav-link-active-background-color: #22abb8;
+    --nav-link-active-font-color: #000;
+    --nav-link-hover-background-color: rgb(0, 101, 111);
+    --nav-link-hover-font-color: #fff;
+
+    --paragraph-font-colors: rgba(0, 0, 0, 0.3);
+    --paragraph-background-color: #ffffff;
+
+    /* --link-font-color: ;
+    --link-hover-font-color: ;
+    --link-active-font-color: ; */
+
+    --footer-background-color: #00000088;
+    --footer-font-color: #fff;
+    --footer-location-link-font-color: #ee7f00;
+}
+b{
+    letter-spacing: 0.9px;
+}
+
+#meeting-box-advice{
+    background-color: var(--footer-background-color);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+}
+
+h1, h2, h3, h4, h5, h6, header span, nav{
+    font-family: "Noto Sans", monospace, sans-serif;
+    margin: auto;
+}
+
+body{
+    font-family: "Open Sans", 'Times New Roman', Times, serif;
+}
+#hamburgerBtn {
+    grid-column: end/-1;
+    background: transparent;
+    color: var(--hamburgerBtn-font-color);
+    border: none;
+    font-size: 2rem;
+}
+header {
+    display: grid;
+    background-color: var(--header-background-color);
+    color: var(--heading-logo-font-color); 
+    grid-template-columns:  auto 3fr 1.5fr 3.5rem ;    
+    /* justify-items: center;  */
+}
+.header-logo-img{width: 200px; margin-left: 1rem; align-self: center; justify-self: center; margin: 0 0.5rem 0 0.5rem ;}
+
+.main-presentation-block{
+    text-align: center;
+    width: 100%;
+    min-height: 420px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}    
+#main-block-temples{
+    background-image: url("../images/washington_dc_mormon_temple-background.webp");
+}
+#main-block-index{
+    background-image: url("../images/montgomery-street-view.webp");
+}
+.main-presentation-block .main-image-background-front-text {
+    margin-top: 1rem;
+    padding: 1rem;
+    align-self: flex-start;
+    background-color: rgba(0, 101, 111, 0.3);
+    color: #fff;
+}    
+.main-presentation-block .background-buttons-link a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1.5rem;
+    border: 2px solid #fff;
+    border-radius: 30% 5%;
+    font-weight: bolder;
+}
+
+
+.media{display: inline; grid-column: 3; align-self: center; justify-self: right; }
+.media img{width: 30px; }
+.facebook-media-image{width: 2rem;}
+.linkedIn-media-image{width: 2rem;}
+
+
+.currentDate{grid-row: 3; grid-column: 1/end; justify-self: stretch; padding: 0.5rem; background-color: var(--span-currentDay-background-color); color: var(--span-currentDay-font-color); margin: 0.5rem 0 0.5rem 0; text-align: center;}
+
+
+nav ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0;
+}
+nav ul li a {
+    background: var(--nav-link-background-color);
+    display: block;
+    text-decoration: none; 
+    justify-self: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 0.8rem;
+    color: var(--nav-link-font-color);
+    /* transition: 250ms; */
+    
+}
+nav ul li a.active{background-color: var(--nav-link-active-background-color); color: var(--nav-link-active-font-color); border: 3px solid var(--span-currentDay-background-color);}
+nav ul li a:hover{background-color: var(--nav-link-active-background-color); color: var(--nav-link-hover-font-color);}
+nav {grid-row: 2; grid-column: 1/end; justify-self: stretch; margin: 0px;}
+nav ul {display: none;}
+nav ul.open{display: block;} 
+
+#hamburgerBtn span:nth-child(1){ display: block;}
+#hamburgerBtn span:nth-child(2){ display: none;}
+
+#hamburgerBtn.open span:nth-child(1){ display: none;}
+#hamburgerBtn.open span:nth-child(2){ display: block; margin-right: 0; }
+
+
+.temple-and-summary-paragraph img{
+    width: 100%;
+}
+
+
+
+main{
+    display: block;
+}
+
+main .join-main-button {
+    padding: 10px;
+    background-color: #ee7f00;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-family: "Radio Canada", monospace, sans-serif;
+    border-radius: 0rem;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+
+main > div{
+    height: auto;
+    background-color: var(--paragraph-background-color);
+    color: rgba(0, 0, 0, 0.6);
+    margin: 1rem 1rem 1rem 1rem ;
+    padding: 1rem;
+    border: 1px solid #00000088;
+}
+
+main .hero-box {
+    position: relative;
+    /* margin: 0; */
+    padding: 0;
+}
+main .hero-box .hero-image{
+    /* position: relative; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+main .hero-box .hero-heading{
+    display: none;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    padding: 0.5rem;
+    color: #fff;
+    background-color: #0e570088;
+    
+}
+main .hero-box .join-main-button{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    
+}
+main .join-main-button:hover{
+    box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.5);
+    background-color: #0e5700;
+}
+
+.join-box {display: none;}
+
+/* --This is from the event box → career fair --  */
+main div.event-box, main .news-release-box, main section.spotlight-1, 
+main section.spotlight-2, main section.spotlight-3{
+    position: relative;
+    padding: 0;
+    margin-bottom: 17px;
+}
+main div.event-box img, main .news-release-box img, 
+main section.spotlight-1 img, main section.spotlight-2 img, 
+main section.spotlight-3 img{
+    width: 100%;
+    display: block;
+}
+main div.event-box h2, main .news-release-box h2, 
+main section.spotlight-1 h3, main section.spotlight-2 h3,
+main section.spotlight-3 h3{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #fff;
+    background-color: #0e570088;
+    padding: 0.5rem;
+}
+main div.event-box b, main .news-release-box b, 
+main section.spotlight-1 b, main section.spotlight-2 b,
+main section.spotlight-3 b{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    color: #fff;
+    background-color: #00000088;
+    margin: 0 0px 10px 0;
+    padding: 0.5rem;
+} 
+
+/* --This is from job search box-- */
+
+
+
+
+/* -- This is from the weather box -- */
+.weather-box{
+    margin: 0.5rem;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    background-color: var(--nav-background-color);
+}
+.weather-box h2{grid-column: 1/3; justify-self: center; margin: 0; color: #fff;}
+.weather-box img{width: 6rem; grid-column: 1; grid-row: 2; justify-self: center;}
+.weather-box .actual-temperature{font-size: 3rem; align-self: center; justify-self: center; grid-column: 2; margin: 0;}
+.weather-box b{grid-column: 1/3; grid-row: 3; justify-self: center; font-size: 1.2rem;}
+.weather-box div{grid-column: 1/3; grid-row: 4; justify-content: center; border-top: 3px solid var(--hamburgerBtn-font-color); padding: 0 0.5px 0.5px 0.5px; padding: 0;}
+.weather-box div{text-align: center;}
+.weather-box p{margin: 0.5rem;}
+.weather-box p,.weather-box b,.weather-box .actual-temperature,.weather-box p{
+    color: #fff;
+}
+
+
+
+/* -- spotlights container-- */
+.spotlights-container{display: flex; flex-direction: column; height: auto;}
+.spotlights-container section{
+    position: relative;
+    box-shadow: 0 5px 12px -2px blue;
+    padding: 1rem;        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: stretch;
+    text-align: center;
+}
+
+.spotlights-container section img{width: 100%; margin: 0 auto 0 auto}
+.spotlights-container section div{margin: 0; padding: 0;}
+.spotlights-container section p{margin: 0; padding: 0;}
+.spotlights-container h3{
+    margin: 0 auto 1rem auto;
+}
+
+.spotlights-container :nth-child(3), .spotlights-container :nth-child(4){
+    display: none;
+}
+.spotlight-3{display: none; }
+
+/*---------------------- footer------------------- */
+
+footer{ 
+    margin-top: 1rem;
+    display: flex;
+    background-color: var(--footer-background-color);
+    padding: 1rem;
+    color: var(--footer-font-color);
+    align-items: center;
+    flex-direction: column;
+}
+footer span .location-link{text-decoration: none; color: var(--footer-location-link-font-color);}
+.footer-logo-name{font-family: "Noto Sans", monospace, sans-serif;}
+
+.chamber-info-footer-container{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.bottom-student-information-box{
+    display: flex;
+    border-top: 2px solid #fff;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    font-size: 90%;
+    align-items: center;
+    flex-direction: column;
+}
+.student-name{font-weight: bold; font-size: 120%;}
+.footer-logo{width: 200px; padding: 1rem; margin-top: 0px;}
+
+
+
+/* ---------------------------------------------- */
+/* ------------ Discover website --------------- */
+/* ---------------------------------------------- */
+.lujan-statistics-box, .lujan-statistics-box:hover{
+    box-shadow: none;
+}
+.lujan-images-box h2, .lujan-statistics-box h2 {
+    margin-top: 1.2rem;    margin-bottom: 0.5rem;
+}
+.lujan-statistics-box img, .lujan-images-box img{
+    width: 100%;
+    box-shadow: 1px 1px 5px 0.5px #000;
+}
+.lujan-images-box h2:hover, .lujan-statistics-box h2:hover {
+    box-shadow: none;
+}
+
+main img[data-src]{
+    filter: blur(0.2em);
+}
+
+main img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.local-storage-warning-box{
+    background-color: #0e5700;
+    color: #fff;
+    text-align: center;
+    grid-column: 1/end;
+}
+.local-storage-warning-box span{
+    text-align: center;
+}
+
+/* ----------------------------------------------- */
+/* ----------------  JOIN.HTML ---------------- */
+/* ----------------------------------------------- */
+
+form {
+    margin: 0 1rem;
+}
+fieldset{
+    border-top: solid #ee7f00 5px;
+    margin-bottom: 1rem;
+}
+legend {
+    padding: 0 0.5rem 0 0.5rem;
+}
+form label.top {
+    display: block;
+    padding-top: 1.5rem;
+    color: #860b0b;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select, form label.top textarea {
+    display: block;
+    padding: 0.5rem;
+    border: 0.5px solid rgb(100, 100, 100);
+    border-radius: 0rem;
+    width: 100%;
+    max-width: 20rem;
+}
+form label.top input {
+    height: 3rem;
+}
+
+form input.submitBtn {
+    background-color:#269410;
+    border: none;
+    color: #fff;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 100%;
+    justify-self: center;
+    max-width: 20rem;
+
+}
+
+form input.submitBtn:hover{
+    background-color: #ee7f00;
+}
+
+form label.top input:required{
+    border-left: solid red 5px;
+}
+
+form .warning-box{
+    display: none;
+    background-color: #860b0b;
+    color: #fff;
+    padding: 0.5rem;
+    max-width: 20rem;
+}
+
+main section.benefits-box {
+    display: none;
+}
+/* ---------------------------------------------- */
+/* ------------thank you site ------------------- */
+/* ---------------------------------------------- */
+
+main div.thankyou-msg, main div.thankyou-msg:hover{
+    color:#0e5700;
+    box-shadow: 0 5px 12px -2px blue;
+    grid-row: 1/end;
+}
+
+
+/* ---------------------------------------------------------- */
+/* ------------------ directory.html  -----------------------*/
+/* ---------------------------------------------------------- */
+
+main div.join-heading-and-buttons{
+    align-self: flex-start;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: none;
+    margin-right: 1rem;
+    /* border: 1px solid black; */
+    justify-content: center;
+}
+main div.join-heading-and-buttons button{
+    margin: 0.2rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+    background: none;
+    border: none;
+    color: #3D1F00;
+}
+main div.join-heading-and-buttons button:hover{
+    color: #fff;
+    background-color: #ee7f00;
+}
+main div.join-heading-and-buttons button.active-button{
+    color: #ee7f00;
+    background-color: #fff;
+    border: 1px solid #ee7f00;
+    border-radius: 0px;
+}
+main div.join-heading-and-buttons button i{
+    width: 20px;
+}
+
+main div.join-heading-and-buttons h2.discovery-heading{
+    margin-left: 0.5rem;
+    justify-self: flex-start;
+    color: #3D1F00;
+    font-size: 2rem;
+}
+
+main div.cards.list{
+    display: block;
+    border: none;
+    padding: 0;
+}
+main div.cards.list section:nth-child(even){
+    background-color: #c2d3f7;
+}
+main div.cards.list section{
+    padding: 0rem;
+    margin: 1rem 0;
+}
+main div.cards.list section img{
+    display: none;
+}
+main div.cards.list h3, main div.cards.list section p, main div.cards.list section a{
+    padding-left: 0.5rem;
+    padding-bottom: 0.1rem;
+}
+main div.cards.list h3{
+    color: rgb(54, 54, 54);
+    font-size: 1.5rem;
+}
+
+main div.cards, main div.cards:hover, main div.cards section:hover, div.join-heading-and-buttons:hover {
+    box-shadow: none;
+    /* border: 1px solid black; */
+}
+main div.cards section img{
+    width: 100%;
+}
+main div.join-heading-and-buttons button i{
+    width: 100%;
+}
+
+
+main div.cards.grid{
+    grid-row: 2/end;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+main div.cards.grid section{
+    position: relative;
+    box-shadow: 0 5px 12px -2px blue;
+    padding: 1rem;        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: stretch;
+    
+}
+
+main div.cards section p, main div.cards section a{
+    margin: 0.2rem 0;
+}
+
+
+main div.cards section :last-child{
+    font-weight: bolder;
+    align-self: stretch;
+    padding: 0.5rem;
+    text-align: center;
+
+}
+
+.gold-membership-level{
+    color :gold;
+    background-color: grey;
+
+}
+.silver-membership-level{
+    color: silver;
+    background-color: black;
+}
+.bronze-membership-level{
+    color: orange;
+    background-color: #3D1F00;
+}
+
+main div.cards.list .enterprise-box-style{
+    box-shadow: 0px 5px 12px -2px blue;
+}
+.enterprise-box-style b {
+    margin-top: 0.5rem;
+    background-color: #0e5700;
+    color: white;
+    padding: 0.5rem;
+}
+/* -----------------------------------------------------------*/
+/* -------------------- contact.html -------------------------*/
+/* -----------------------------------------------------------*/
+
+
+main .contact-us-heading{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    color: #3D1F00;
+    margin-top: 0px;
+    align-self: start;
+    font-size: 2.5rem;
+    /* align-self: start; */
+
+}
+
+main .site-contact-info{
+    box-shadow: none;
+}
+main .site-contact-info h3, main form.contact-us-form h3{
+    margin-bottom: 1.5rem;
+    color: #3D1F00;
+    
+}
+
+main .site-contact-info h4{
+    color: #ee7f00;
+}
+main .site-contact-info p{
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+}
+
+
+
+
