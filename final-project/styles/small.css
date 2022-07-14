@@ -80,12 +80,19 @@ header {
     justify-content: center;
     background-size: cover;
     background-position: center;
+    height: 320px;
 }    
-#main-block-temples{
+#reservation.main-presentation-block{
+    background-image: url("..images/check-in-hotel.webp");
+}
+#main-block-temples.main-presentation-block{
     background-image: url("../images/washington_dc_mormon_temple-background.webp");
 }
-#main-block-index{
+#main-block-index.main-presentation-block{
     background-image: url("../images/montgomery-street-view.webp");
+}
+#main-block-services.main-presentation-block{
+    background-image: url("../images/hotel-bedroom.jpg");
 }
 .main-presentation-block .main-image-background-front-text {
     margin-top: 1rem;
@@ -101,9 +108,11 @@ header {
     border: 2px solid #fff;
     border-radius: 30% 5%;
     font-weight: bolder;
+    background-color: #00656F;
 }
-
-
+.main-presentation-block .background-buttons-link a:hover{
+    background-color: #1da4b1;
+}
 .media{display: inline; grid-column: 3; align-self: center; justify-self: right; }
 .media img{width: 30px; }
 .facebook-media-image{width: 2rem;}
@@ -130,7 +139,7 @@ nav ul li a {
     /* transition: 250ms; */
     
 }
-nav ul li a.active{background-color: var(--nav-link-active-background-color); color: var(--nav-link-active-font-color); border: 3px solid var(--span-currentDay-background-color);}
+nav ul li a.active{background-color: var(--nav-link-active-background-color); color: var(--nav-link-active-font-color); border-bottom: 3px solid var(--span-currentDay-background-color);}
 nav ul li a:hover{background-color: var(--nav-link-active-background-color); color: var(--nav-link-hover-font-color);}
 nav {grid-row: 2; grid-column: 1/end; justify-self: stretch; margin: 0px;}
 nav ul {display: none;}
@@ -377,7 +386,7 @@ form {
     margin: 0 1rem;
 }
 fieldset{
-    border-top: solid #ee7f00 5px;
+    border-top: solid #00656F 5px;
     margin-bottom: 1rem;
 }
 legend {
@@ -403,7 +412,7 @@ form label.top input {
 }
 
 form input.submitBtn {
-    background-color:#269410;
+    background-color:#00656F;
     border: none;
     color: #fff;
     padding: 0.5rem;
@@ -411,11 +420,11 @@ form input.submitBtn {
     width: 100%;
     justify-self: center;
     max-width: 20rem;
-
+    font-family: "Noto Sans", monospace, sans-serif;
 }
 
 form input.submitBtn:hover{
-    background-color: #ee7f00;
+    background-color: #1da4b1;
 }
 
 form label.top input:required{
@@ -525,7 +534,7 @@ main div.join-heading-and-buttons button i{
 
 
 main div.cards.grid{
-    grid-row: 2/end;
+    grid-row: 1/end;
     
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

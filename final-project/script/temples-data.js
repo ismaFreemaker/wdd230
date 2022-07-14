@@ -1,4 +1,4 @@
-const requestUrl = "https://ismafreemaker.github.io/wdd230/final-project/temples.json";
+const requestUrl = "temples.json";
 const cards = document.querySelector(".cards");
 
 async function getTemples(){
@@ -6,6 +6,7 @@ async function getTemples(){
     if (response.ok){
         let data = await response.json();
         builtTemplesCard(data);
+        console.log(data);
     }  else{
         throw Error(response.statusText);
     } 
@@ -19,25 +20,28 @@ function builtTemplesCard(data){
         let pAddress = document.createElement('p');        
         let pPhoneNumber = document.createElement('p');        
         let templeLink = document.createElement('a');   
-        // let membershipLevel = document.createElement('p');
+        let thumbUpIcon = document.createElement('i');   
 
-
-        h3Name.textContent = `${temple.name}`;
         templeImage.setAttribute('src', `${temple.imagelink}`);
-        templeImage.setAttribute('alt', `${temple.name} logo`);
+        templeImage.setAttribute('alt', `${temple.place} logo`);
         templeImage.setAttribute('loading', 'lazy');
+        h3Name.textContent = `${temple.place}`;
         pAddress.textContent = `${temple.address}`;
         pPhoneNumber.textContent = `${temple.phonenumber}`;
-        templeLink.textContent = `${temple.website}`;
-        templeLink.setAttribute('href', `${temple.website}`);
-        membershipLevel.textContent = `${temple.membershiplevel} Membership`;        
+        templeLink.textContent = `see more...`;
+        templeLink.setAttribute('href', `${temple.templelink}`);
+        templeLink.setAttribute('target', `blank`);
+        thumbUpIcon.classList.add("fa");
+        thumbUpIcon.classList.add("fa-thumbs-up");
 
-        card.append(h3Name);
+
         card.append(templeImage);
+        card.append(h3Name);
         card.append(pAddress);
         card.append(pPhoneNumber);
         card.append(templeLink);
-        card.append(membershipLevel);
+        card.append(thumbUpIcon);
+        // card.append(membershipLevel);
 
         cards.append(card);
     });
@@ -47,23 +51,23 @@ getTemples();
 
 // making the code for the cards view
 
-let gridButton = document.querySelector('#grid-button');
-let listButton = document.querySelector('#list-button');
+// let gridButton = document.querySelector('#grid-button');
+// let listButton = document.querySelector('#list-button');
 
-gridButton.addEventListener("click", () =>{
-    cards.classList.add('grid');
-    cards.classList.remove('list');
-    gridButton.classList.add("active-button");
-    listButton.classList.remove("active-button");
-});
+// gridButton.addEventListener("click", () =>{
+//     cards.classList.add('grid');
+//     cards.classList.remove('list');
+//     gridButton.classList.add("active-button");
+//     listButton.classList.remove("active-button");
+// });
 
-listButton.addEventListener("click", () => {
-    cards.classList.add("list");
-    cards.classList.remove("grid");
-    gridButton.classList.remove("active-button");
-    listButton.classList.add("active-button");
+// listButton.addEventListener("click", () => {
+//     cards.classList.add("list");
+//     cards.classList.remove("grid");
+//     gridButton.classList.remove("active-button");
+//     listButton.classList.add("active-button");
 
-});
+// });
 
 
 

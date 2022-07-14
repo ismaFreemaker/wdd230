@@ -29,6 +29,8 @@
     --footer-location-link-font-color: #ee7f00;
 }
 @media only screen and (min-width: 1107px){
+
+
     #hamburgerBtn{
         display: none;
     } 
@@ -84,6 +86,9 @@
         
     }
 
+    .main-presentation-block{
+        height: 420px;
+    }
     main{
         margin: auto 1rem auto 1rem;
         display: grid;
@@ -203,6 +208,7 @@
         padding-right: 2rem;
     }
     /* ------------form in join site----------------- */
+    
     legend{
         padding: 0 0.5rem 0 0.5rem;
         font-size: 1.2rem;
@@ -290,7 +296,7 @@
         width: 100%;
         max-width: 25rem;
     }
-    /* --------------- directory site ------------------ */
+    /* --------------- reservation site ------------------ */
     
     
     main section.join-grids {
