@@ -107,6 +107,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
+        
     }
 
     form.reservation-form .personal-information-fieldset{

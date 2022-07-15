@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./styles/medium.css">
   <link rel="stylesheet" href="./styles/large.css">
   <script src="script/temples-data.js" defer></script>
+  <script src="script/dinamic-index.js" defer></script>
 
   <link rel="shortcut icon" href="favicon.ico">
 </head>
@@ -26,7 +27,16 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a class="active" href="temples.html">Temples</a></li>
                 <li><a href="reservation.html">Reservation</a></li>
-                <li><a href="services.html">Services</a></li>
+                <li>
+                    <div class="subnav">
+                    <a href="#" class="subnavBtn">Services <i class="fa fa-caret-down"></i></a>
+                        <div class="subnav-content">
+                            <a href="services.html">Services Overview</a>
+                            <a href="#">Reception</a>
+                            <a href="#">full-temple missionary</a>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </nav>
         <section class="media">
@@ -40,7 +50,7 @@
             <h2>Temples</h2>
             <p>The temples are the most beautiful places and the House of the Lord. We help you to be comfortable when doing ordinances. </p>
         </div>
-        <div class="background-buttons-link">
+        <div class="buttons-link">
             <a href="reservation.html">Make a reservation</a>
         </div>
     </div>

@@ -21,10 +21,19 @@
         <a href="index.html"><img class="header-logo-img"width="200"height="200"src="images/templesInn-logo.png"alt="Lujan Chamber of Commerce Logo"></a>
         <nav>
             <ul id="primaryNav">
-                <li><a class="active"href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="temple.html">Temples</a></li>
                 <li><a href="reservation.html">Reservation</a></li>
-                <li><a href="services.html">Services</a></li>
+                <li>
+                    <div class="subnav">
+                    <a href="#" class="subnavBtn">Services <i class="fa fa-caret-down"></i></a>
+                        <div class="subnav-content">
+                            <a href="services.html">Services Overview</a>
+                            <a href="reception.html">Reception</a>
+                            <a href="full-temple-missionary.html">full-temple missionary</a>
+                        </div>
+                    </div>
+                </li>            
             </ul>
         </nav>
         <section class="media">
@@ -33,12 +42,12 @@
         </section>
         <button id="hamburgerBtn"><span>&#9776;</span><span><img src="images/7124067_x_icon.svg"alt="x_icon"></span></button>
     </header>
-    <div class="main-presentation-block"height="420px">
+    <div class="main-presentation-block" id="main-block-reception" height="420px">
         <div class="main-image-background-front-text">
             <h2>We offer you the best services</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quis illo itaque quam autem voluptas ducimus cum deleniti vel quod. Minus ea quas tempora minima atque laboriosam vel commodi recusandae.</p>
         </div>
-        <div class="background-buttons-link">
+        <div class="buttons-link">
             <a href="reservation.html">Make a reservation</a>
         </div>
     </div>

@@ -20,13 +20,22 @@
 
 <body>
     <header>
-        <a href="index.html"><img class="header-logo-img" width="200" height="200" src="images/templesInn-logo.png" alt="Lujan Chamber of Commerce Logo"></a>
+        <a href="index.html"><img class="header-logo-img" width="200" height="200" src="images/templesInn-logo.png" alt="Temples Inn and Suites Logo"></a>
         <nav>
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="temples.html">Temples</a></li>
                 <li><a class="active" href="reservation.html">Reservation</a></li>
-                <li><a href="services.html">Services</a></li>
+                <li>
+                    <div class="subnav">
+                    <a href="#" class="subnavBtn">Services <i class="fa fa-caret-down"></i></a>
+                        <div class="subnav-content">
+                            <a href="services.html">Services Overview</a>
+                            <a href="#">Reception</a>
+                            <a href="#">full-temple missionary</a>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </nav>
         <section class="media">
@@ -35,14 +44,13 @@
         </section>
         <button id="hamburgerBtn"><span>&#9776;</span><span><img src="images/7124067_x_icon.svg" alt="x_icon"></span></button>
     </header>
-    <div class="main-presentation-block" id="reservation" >
+    <div class="main-presentation-block" id="main-block-reservation" >
         <div class="main-image-background-front-text">
             <h2>We offer you the best services</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quis illo itaque quam autem voluptas ducimus cum deleniti vel quod. Minus ea quas tempora minima atque laboriosam vel commodi recusandae.</p>
         </div>
-        <div class="background-buttons-link">
-            <a href="reservation.html">Reception</a>
-            <a href="reservation.html">Full-time temple missionary</a>
+        <div class="buttons-link">
+            <a href="services.html">Services</a>
         </div>
     </div>
     
@@ -323,7 +331,7 @@
                 </label>
                 <label class="top">Special accommodations or comments<textarea name="specialcomments" cols="30" rows="10"></textarea></label>
                 <label><input type="hidden" value="daysubmitted" id="daySubmitted"></label>
-                <input type="submit" value="Join the Chamber" class="submitBtn">
+                <input type="submit" value="Make a reservation" class="submitBtn">
             </fieldset>
             
             
@@ -332,7 +340,7 @@
     
     <footer>
         <a href="index.html"><img class="footer-logo" src="images/templesInn-logo.png" alt="The Temples Inn and Suites Logo"></a>
-        <span class="footer-logo-name">Luján Chamber of Commerce</span>
+        <span class="footer-logo-name"></span>
         <div class="chamber-info-footer-container">
             <span class="street-direction">4800 Montgomery Ln #300, Bethesda, MD 20814</span>
             <span class="info-email">info@templesinnandsuites.org</span>

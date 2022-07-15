@@ -77,14 +77,37 @@
         padding-bottom: 0;
         align-self: center;
     }
-    header span.currentDate{
-        margin-top: 0;
-    }
-    header section.media{
-        
+    header section.media{   
         align-self: center;
-        
     }
+
+    /* -------------- subnav styles ---------------- */
+    .subnav-content{
+        display: none;
+        position: absolute;
+    }
+    .subnav .subnavBtn{
+        background: var(--nav-link-background-color);
+        display: block;
+        text-decoration: none; 
+        justify-self: center;
+        padding: 0.8rem;
+        color: var(--nav-link-font-color);
+    }
+    .subnav .subnavBtn:hover{
+        background-color:  var(--nav-link-active-background-color);
+        color: #fff;
+    }
+    .subnav:hover .subnav-content{
+        display: block;
+    }
+    .subnav-content a{
+        font-size: 1rem;
+    }
+    .subnav-content a:hover{
+        border-left: 3px solid #00656F;
+    }
+
 
     .main-presentation-block{
         height: 420px;
