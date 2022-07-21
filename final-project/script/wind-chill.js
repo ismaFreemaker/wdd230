@@ -96,7 +96,7 @@ function gettingMonth(monthNum){
 
 const mainUrl = `https://api.openweathermap.org//data/2.5/weather?q=Lujan&units=metric&appid=e01b7c091c6bb04f4c02d5241f7fdb95`;
 const secondUrl = `https://api.openweathermap.org//data/2.5/forecast?q=Lujan&units=metric&appid=e01b7c091c6bb04f4c02d5241f7fdb95`;
-const thirdUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=-34.5703&lon=-59.105&except=hourly&units=metric&appid=e01b7c091c6bb04f4c02d5241f7fdb95`;
+const thirdUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=-34.5703&lon=-59.105&except=hourly&units=metric&appid=fa4de36ea4317378726b65a1eab16bfe`;
 
 let currentTemp = document.querySelector("#current-temperature");
 let windVelocityBox = document.querySelector(".windVelocity");
