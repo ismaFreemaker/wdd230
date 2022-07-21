@@ -49,7 +49,8 @@ b{
 
 h1, h2, h3, h4, h5, h6, header span, nav{
     font-family: "Noto Sans", monospace, sans-serif;
-    margin: auto;
+    margin: 5px;
+    text-align: center;
 }
 
 body{
@@ -69,18 +70,20 @@ header {
     grid-template-columns:  auto 3fr 1.5fr 3.5rem ;    
     /* justify-items: center;  */
 }
-.header-logo-img{width: 200px; margin-left: 1rem; align-self: center; justify-self: center; margin: 0 0.5rem 0 0.5rem ;}
+.header-logo-img{width: auto; margin-left: 1rem; align-self: center; justify-self: center; margin: 0 0.5rem 0 0.5rem ;}
 
 .main-presentation-block{
     text-align: center;
     width: 100%;
     min-height: 420px;
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: center;
     background-size: cover;
     background-position: center;
     height: 420px;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    justify-content: space-around;
 }    
 #main-block-reservation{
     background-image: url("../images/check-in-hotel.webp");
@@ -95,29 +98,34 @@ header {
     background-image: url("../images/complimentary-breakfast.webp");
 }
 #main-block-reception{
-
+    background-image: url("../images/wedding-setup.jpg");
+}
+#main-block-full-temple-missionary{
+    background-image: url("../images/suit-acomodation.jpg");
 }
 
 
 .main-presentation-block .main-image-background-front-text {
     margin-top: 1rem;
-    padding: 1rem;
+    padding: 0 2rem;
     align-self: flex-start;
     background-color: rgba(0, 101, 111, 0.3);
     color: #fff;
+    align-self: center;
 }    
 .buttons-link a{
     text-decoration: none;
     color: #fff;
     padding: 1.5rem;
     border: 2px solid #fff;
-    border-radius: 30% 5%;
+    border-radius: 30% 2%;
     font-weight: bolder;
     background-color: #00656F;
-    display: block;
+    max-width: min-content;
+
 }
 .buttons-link a:hover{
-    background-color: #1da4b1;
+    background-color: #022124;
 }
 
 div.buttons-link{
@@ -148,6 +156,7 @@ nav ul li a {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
     padding: 0.8rem;
     color: var(--nav-link-font-color);
+    text-align: start;
     /* transition: 250ms; */
     
 }
@@ -163,9 +172,17 @@ nav ul.open{display: block;}
 #hamburgerBtn.open span:nth-child(1){ display: none;}
 #hamburgerBtn.open span:nth-child(2){ display: block; margin-right: 0; }
 
+.call-us-div{
+    height: fit-content;
+    text-align: center;
+}
 
 .temple-and-summary-paragraph img{
     width: 100%;
+    display: block;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -175,22 +192,32 @@ nav ul.open{display: block;}
     position: absolute;
 }
 .subnav .subnavBtn{
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
     background: var(--nav-link-background-color);
     display: block;
     text-decoration: none; 
     justify-self: center;
     padding: 0.8rem;
     color: var(--nav-link-font-color);
+    width: 100%;
+    text-align: left;
 }
 .subnav .subnavBtn:hover{
     background-color:  var(--nav-link-active-background-color);
     color: #fff;
 }
-.subnav:hover .subnav-content{
-    display: block;
+.subnav .subnav-content.open{
+    display: block;   
+}
+.subnav-content {
+    width: 100%;
 }
 .subnav-content a{
     font-size: 1rem;
+    width: 100%;
+    padding-left: 2rem;
+    font-size: 0.9rem;
 }
 .subnav-content a:hover{
     border-left: 3px solid #00656F;
@@ -205,15 +232,15 @@ main{
 main > div{
     height: auto;
     background-color: var(--paragraph-background-color);
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.9);
     margin: 1rem 1rem 1rem 1rem ;
     padding: 1rem;
-    border: 1px solid #00000088;
 }
 
 .heading-2{
-    margin: 0.5rem auto 0.5rem 0.5rem;
+    margin: 1rem;
     color: var(--headings-font-color);
+
 }
 
 
@@ -237,6 +264,7 @@ main > div{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto;
     background-color: var(--nav-background-color);
+    
 }
 .weather-box h2{grid-column: 1/3; justify-self: center; margin: 0; color: #fff;}
 .weather-box img{width: 6rem; grid-column: 1; grid-row: 2; justify-self: center;}
@@ -248,11 +276,30 @@ main > div{
 .weather-box p,.weather-box b,.weather-box .actual-temperature,.weather-box p{
     color: #fff;
 }
-
-
+.three-days-temperature-forecast{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+.three-days-temperature-forecast{
+    padding: 0.3rem;
+    margin: 0;
+}
+.weather-boxes{
+    background-color: #00656F;    
+    width: auto;
+    margin: 0.2rem;
+    color: #fff;
+}
+.weather-boxes img{
+    width: 100px;
+    
+}
 
 /* -- spotlights container-- */
-
+.weather-alerts {
+    height: 20px;
+}
 
 
 
@@ -381,83 +428,10 @@ main div.thankyou-msg, main div.thankyou-msg:hover{
 
 
 /* ---------------------------------------------------------- */
-/* ------------------ directory.html  -----------------------*/
+/* ------------------ temple.html  -----------------------*/
 /* ---------------------------------------------------------- */
 
-main div.join-heading-and-buttons{
-    align-self: flex-start;
-    padding: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    box-shadow: none;
-    margin-right: 1rem;
-    /* border: 1px solid black; */
-    justify-content: center;
-}
-main div.join-heading-and-buttons button{
-    margin: 0.2rem;
-    width: 3rem;
-    height: 3rem;
-    padding: 0;
-    background: none;
-    border: none;
-    color: #3D1F00;
-}
-main div.join-heading-and-buttons button:hover{
-    color: #fff;
-    background-color: #ee7f00;
-}
-main div.join-heading-and-buttons button.active-button{
-    color: #ee7f00;
-    background-color: #fff;
-    border: 1px solid #ee7f00;
-    border-radius: 0px;
-}
-main div.join-heading-and-buttons button i{
-    width: 20px;
-}
 
-main div.join-heading-and-buttons h2.discovery-heading{
-    margin-left: 0.5rem;
-    justify-self: flex-start;
-    color: #3D1F00;
-    font-size: 2rem;
-}
-
-main div.cards.list{
-    display: block;
-    border: none;
-    padding: 0;
-}
-main div.cards.list section:nth-child(even){
-    background-color: #c2d3f7;
-}
-main div.cards.list section{
-    padding: 0rem;
-    margin: 1rem 0;
-}
-main div.cards.list section img{
-    display: none;
-}
-main div.cards.list h3, main div.cards.list section p, main div.cards.list section a{
-    padding-left: 0.5rem;
-    padding-bottom: 0.1rem;
-}
-main div.cards.list h3{
-    color: rgb(54, 54, 54);
-    font-size: 1.5rem;
-}
-
-main div.cards, main div.cards:hover, main div.cards section:hover, div.join-heading-and-buttons:hover {
-    box-shadow: none;
-    /* border: 1px solid black; */
-}
-main div.cards section img{
-    width: 100%;
-}
-main div.join-heading-and-buttons button i{
-    width: 100%;
-}
 
 
 main div.cards.grid{
@@ -474,45 +448,53 @@ main div.cards.grid section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-items: stretch;
-    
+    justify-content: flex-start;
+    height: fit-content;
 }
 
 main div.cards section p, main div.cards section a{
     margin: 0.2rem 0;
 }
 
-
-main div.cards section :last-child{
+main div.cards section .thumb-box{
     font-weight: bolder;
     align-self: stretch;
     padding: 0.5rem;
-    text-align: center;
-
+    text-align: right;
+    justify-self: start;
 }
 
-.gold-membership-level{
-    color :gold;
-    background-color: grey;
-
-}
-.silver-membership-level{
-    color: silver;
-    background-color: black;
-}
-.bronze-membership-level{
-    color: orange;
-    background-color: #3D1F00;
+.thumb-box.check{
+    color: blue;
 }
 
-main div.cards.list .enterprise-box-style{
-    box-shadow: 0px 5px 12px -2px blue;
+.temple-info{
+    background: #1da4b1;
+    color: #fff;
 }
-.enterprise-box-style b {
-    margin-top: 0.5rem;
-    background-color: #0e5700;
-    color: white;
+.temple-info p b{
+    text-align: left;
+}
+div.temple-info{
+    display: none;
+}
+div.temple-info.open{
+    display: block;
     padding: 0.5rem;
+    /* position:absolute; */
+    top: 50%;
+    left: 50%;
+}
+.templeButton{
+    margin-bottom: 0px;
+    align-self: normal;   
+    background-color: #00656f;
+    color: #fff;
+    border: none;
+}
+.templeButton:hover{
+    background-color: #1da4b1;
+    color: #000;
 }
 /* -----------------------------------------------------------*/
 /* -------------------- contact.html -------------------------*/

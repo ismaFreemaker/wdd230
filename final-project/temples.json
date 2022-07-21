@@ -22,30 +22,24 @@
                     "baptistery": "Tuesday to Friday: from 8:00 to 20:00 \nSaturdays: 6:30 a.m. to 5:00 p.m."
                 }
             ],
-            "templeclosureschedule": [
-                {
-                    "2022":[
+            "templeclosureschedule": 
+                    [
                         "Saturday, 1 October 2022",
                         "Monday, 3 October 2022 - Monday, 17 October 2022",
                         "Saturday, 24 December 2022 - Sunday, 25 December 2022",
                         "Saturday, 31 December 2022 - Sunday, 1 January 2023"
                     ]
-                },
-                {
-                    "2023":[
-                        "Saturday, 1 April 2023",
-                        "Saturday, 7 October 2023",
-                        "Monday, 9 October 2023 - Monday, 23 October 2023"
-                    ]
-                }
-            ],
+                
+                
+            ,
             "templeservices":["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"]
         },
         {
             "place": "Guatemala City Guatemala Temple",
             "address": "24 Avenida 2-20, Zona 15, Vista Hermosa 1, Guatemala Guatemala City, Guatemala",
             "telephonenumber": "(502) 2329-8300",
-            "email": "",
+            "email": "guate-hostal@ldschurch.org",
+            "templelink":"https://www.churchofjesuschrist.org/temples/details/guatemala-city-guatemala-temple?lang=eng",
             "imagelink": "https://assets.ldscdn.org/35/b6/35b678c4d90904c5d50a850547fb49fc37fb9b8f/guatemala_city_guatemala_temple_lds.jpeg",
             "history": [
                 {
@@ -57,33 +51,19 @@
             ],
             "sessionschedules": [
                 {
-                    "endowment": "",
-                    "sealings": "",
-                    "baptistery": ""
-                }
+                    "endowment": "Tuesday to Friday: 8:00, 9:00, 10:00, 11:00, 12:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00 00 \nSaturdays: 6:30 am, 7:15 am, 8:00 am, 9:00 am, 9:45 am, 10:30 am, 11:30 am, 12:15 pm, 1:00 pm, 2:00 pm, 3:00 pm, 4:00 pm, five pm",
+                    "sealings": "Every day morning and afternoon - Call to schedule",
+                    "baptistery": "Tuesday to Friday: from 8:00 to 20:00 \nSaturdays: 6:30 a.m. to 5:00 p.m."                }
             ],
             "templeclosureschedule": [
-                {
-                    "2022":[
-                        "Monday, July 4, 2022 - Monday, July 18, 2022",
-                        "Thursday, September 15, 2022 (Limited Operations)",
-                        "Saturday, October 1, 2022 - Sunday, October 2, 2022",
-                        "Tuesday, November 1, 2022 (Limited Operations)",
-                        "Friday, December 23, 2022 (Limited Operations)",
-                        "Saturday, December 24, 2022 - Sunday, December 25, 2022",
-                        "Saturday, December 31, 2022 - Sunday, January 1, 2023"                    
-                    ]
-                },
-                {
-                    "2023":[
-                        "Monday, February 13, 2023 - Monday, February 27, 2023",
-                        "Saturday, April 1, 2023 - Sunday, April 2, 2023",
-                        "Monday, August 14, 2023 - Monday, August 28, 2023",
-                        "Saturday, September 30, 2023 - Sunday, October 1, 2023",
-                        "Sunday, December 24, 2023 - Monday, December 25, 2023",
-                        "Sunday, December 31, 2023 - Monday, January 1, 2024"
-                    ]
-                }
+                
+                "Monday, July 4, 2022 - Monday, July 18, 2022",
+                "Thursday, September 15, 2022 (Limited Operations)",
+                "Saturday, October 1, 2022 - Sunday, October 2, 2022",
+                "Tuesday, November 1, 2022 (Limited Operations)",
+                "Friday, December 23, 2022 (Limited Operations)",
+                "Saturday, December 24, 2022 - Sunday, December 25, 2022",
+                "Saturday, December 31, 2022 - Sunday, January 1, 2023"                    
             ],
             "templeservices":["No clothing rental available", "No dining available", "Participant accommodation available", "Distribution center nearby"]
             
@@ -92,7 +72,8 @@
             "place": "Concepción, Chile Temple",
             "address": "1525 Pedro de Valdivia, Concepción Bio-Bio, Chile",
             "telephonenumber": "(56) 41-3834700",
-            "email": "",
+            "email": "chile-hostal@ldschurch.org",
+            "templelink": "https://www.churchofjesuschrist.org/temples/details/campinas-brazil-temple?lang=eng",
             "imagelink": "https://assets.ldscdn.org/db/55/db552f67666468c533f22586e37044aea4468edc/concepcion_chile_temple.jpeg",
             "history": [
                 {
@@ -104,26 +85,18 @@
             ],
             "sessionschedules": [
                 {
-                    "endowment": "",
-                    "sealings": "",
-                    "baptistery": ""
+                    "endowment": "Tuesday to Friday: 8:00, 9:00, 10:00, 11:00, 12:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00 00 \nSaturdays: 6:30 am, 7:15 am, 8:00 am, 9:00 am, 9:45 am, 10:30 am, 11:30 am, 12:15 pm, 1:00 pm, 2:00 pm, 3:00 pm, 4:00 pm, five pm",
+                    "sealings": "Every day morning and afternoon - Call to schedule",
+                    "baptistery": "Tuesday to Friday: from 8:00 to 20:00 \nSaturdays: 6:30 a.m. to 5:00 p.m."
                 }
             ],
             "templeclosureschedule": [
-                {
-                    "2022":[
+               
                         "Saturday, October 1, 2022",
                         "Monday, November 14, 2022 - Monday, November 28, 2022",
                         "Saturday, December 24, 2022",
                         "Saturday, December 31, 2022"                    
-                    ]
-                },
-                {
-                    "2023":[
-                        "Monday, May 8, 2023 - Monday, May 22, 2023",
-                        "Monday, November 6, 2023 - Monday, November 20, 2023"                    
-                    ]
-                }
+                    
             ],
             "templeservices":["No clothing rental available", "No dining available", "Patron housing available", "Distribution center nearby"]
         },
@@ -131,7 +104,8 @@
             "place": "Campinas Brazil Temple",
             "address": "Rua James Esdras Faust, 400, Barrio Notre Dame, CEP 13092-820 Campinas - SP, Brazil",
             "telephonenumber": "(55) 19-2102-5800",
-            "email": "",
+            "email": "brasil-hostal@ldschurch.org",
+            "templelink":"https://www.churchofjesuschrist.org/temples/details/campinas-brazil-temple?lang=eng",
             "imagelink": "https://assets.ldscdn.org/33/cb/33cb73d045a401cfc3d837910eac29ab672ae74c/campinas_brazil_temple_lds.jpeg",
             "history": [
                 {
@@ -143,28 +117,17 @@
             ],
             "sessionschedules": [
                 {
-                    "endowment": "",
-                    "sealings": "",
-                    "baptistery": ""
+                    "endowment": "Tuesday to Friday: 8:00, 9:00, 10:00, 11:00, 12:00, 14:00, 15:00, 16:00, 17:00, 18:00, 19:00, 20:00 00 \nSaturdays: 6:30 am, 7:15 am, 8:00 am, 9:00 am, 9:45 am, 10:30 am, 11:30 am, 12:15 pm, 1:00 pm, 2:00 pm, 3:00 pm, 4:00 pm, five pm",
+                    "sealings": "Every day morning and afternoon - Call to schedule",
+                    "baptistery": "Tuesday to Friday: from 8:00 to 20:00 \nSaturdays: 6:30 a.m. to 5:00 p.m."
                 }
             ],
             "templeclosureschedule": [
-                {
-                    "2022":[
-                        "Monday, 19 September 2022 - Monday, 28 November 2022",
-                        "Saturday, 24 December 2022",
-                        "Saturday, 31 December 2022"
-                    ]
-                },
-                {
-                    "2023":[
-                        "Saturday, 1 April 2023 - Sunday, 2 April 2023",
-                        "Monday, 17 April 2023 - Monday, 1 May 2023",
-                        "Monday, 18 September 2023 - Monday, 2 October 2023",
-                        "Saturday, 23 December 2023 - Monday, 25 December 2023",
-                        "Saturday, 30 December 2023 - Monday, 1 January 2024"
-                    ]
-                }
+                
+                "Monday, 19 September 2022 - Monday, 28 November 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022"
+                    
             ],
             "templeservices":["Clothing rental available", "Cafeteria available", "Patron housing available", "Distribution center nearby"]
         }

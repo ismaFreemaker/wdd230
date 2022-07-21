@@ -19,62 +19,33 @@
     .news-release-box{
         grid-row: 2;
     }
-    /* this is the join chamber div */
-    .join-box{
-        display: block;
-        grid-row: 4;
-        position: relative;
-        padding: 0;
+   
+    .temple-and-summary-paragraph img{
+        float: left;
+        margin-right: 15px;
     }
-    .join-box img{
-        width: 100%;
-        display: block;    
+    .paragraph-breaker{
+        display: none;
     }
-    .join-box h2{
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        color: #fff;
-        background-color: #0e570088;
-        padding: 0.5rem;
-    }
-    main div.join-box p {
-        position: absolute;
-        top: 50px;
-        left: 0px;
-        color: #fff;
-        background-color: #00000088;
-        margin: 0 0px 10px 0;
-        padding: 0.5rem;
-        }
-    main div.join-box .join-main-button{
-        position: absolute;
-        right: 10px;
-        bottom: 10px;
-    }
-    main div.join-box button.join-main-button{
-        text-decoration: none;
-        color: #fff;
-    }
-    main div.join-box button.join-main-button:hover{
-        box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.5);
-        background-color: #0e5700;
-    }
-    
-    /* this is the spotlights container */
-    .spotlights-container{
-        grid-row: 3;
-        flex-direction: row;
-        /* height: auto; */
-        gap: 0.5rem;
-        justify-content: space-around;
-        box-shadow: none;
-        /* border: 1px solid #00000088; */
-        box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.5);
-    }
-    .event-box{grid-column: 1/3;}
-    .weather-box{grid-column: 2/3;}     
 
+    
+    /* ---------------------------- */
+    .weather-box{
+        grid-column: 1/2;
+        height: auto;
+        align-self: stretch;
+
+    }     
+    .three-days-temperature-forecast{
+        grid-column: 2/5;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .weather-boxes{
+        height: fit-content;
+        display: flex;
+
+    }
 
     footer{
         display: grid;
@@ -175,7 +146,58 @@
         margin-bottom: auto;
         margin-left: 0px;
     }
-    
+    /* ----------service overview------------------- */
+    .specialized-services-div{
+        height: fit-content;
+    }
+    .specialized-services-div img{
+        max-width: 500px;
+        float: left;
+        margin-right: 40px;
+    }
 
+    .free-amenities-div img{
+        max-width: 400px;
+        float: right;
+
+    }
+    .service-last-image{
+        grid-column: 1/3;
+        max-width: 500px;
+        
+    }
+    .buttons-link{
+        grid-column: 3/end;
+        grid-row: auto;
+        align-self: center;
+        justify-items: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* --------------- FULTIME MISSIONARIES ---------------- */
+    .suites-div {
+        padding: 0 8rem;
+        justify-items: center;
+    }
+    .suites-div img{
+        max-width: 400px;
+    
+    }
+    .missionaries-last-image{
+        grid-column: 1/end;
+    }
+    
+    
+    /* ---------------wedding page ---------------- */
+    
+    
+    .wedding-list img{
+        display: block;
+        float: left;
+        max-width: 400px;
+        margin-right: 40px;
+    }
 
 }

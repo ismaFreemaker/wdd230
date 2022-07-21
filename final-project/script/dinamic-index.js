@@ -14,7 +14,7 @@ let seconds = nLastModified.getSeconds();
 let updatedDateParagraphSpanFooter = document.querySelector(".lastModificationFooter");
 updatedDateParagraphSpanFooter.textContent = `Last modification: ${date}/${month}/${year}  ${hour}:${minutes}:${seconds}`;
 
-// this is the copyright paragraph for the footer. 
+// this is the menu hamburguer button code
 
 function toggleMenu(){
     document.getElementById("primaryNav").classList.toggle("open");
@@ -31,4 +31,14 @@ hamburgerBtn.onclick = toggleMenu;
 // else if (window.innerWidth > 1000){
 //     document.querySelector(".hero-image").src = "./images/small-hero-picture.jpg";
 // }
+
+// ------------- script for the subnav -----------------
+
+let subnavBtn = document.querySelector('.subnavBtn');
+
+function toggleSubNav(){
+    document.querySelector('.subnav-content').classList.toggle("open");
+}
+
+subnavBtn.onclick = toggleSubNav;
 

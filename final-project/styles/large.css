@@ -65,7 +65,7 @@
         /* color: #fff; */
     } 
     header img.header-logo-img{
-        width: 200px;
+        width: auto;
         align-self: start;
         margin-top: 5px;
         margin-left: 2rem;
@@ -93,21 +93,25 @@
         justify-self: center;
         padding: 0.8rem;
         color: var(--nav-link-font-color);
+        border: none;
     }
     .subnav .subnavBtn:hover{
         background-color:  var(--nav-link-active-background-color);
         color: #fff;
     }
-    .subnav:hover .subnav-content{
-        display: block;
+    
+    .subnav .subnav-content.open{
+        display: block;   
+        width: auto;
     }
+    
     .subnav-content a{
         font-size: 1rem;
+
     }
     .subnav-content a:hover{
         border-left: 3px solid #00656F;
     }
-
 
     .main-presentation-block{
         height: 420px;
@@ -126,33 +130,14 @@
     /* main > div:hover, main div section:hover{
         box-shadow: 0px 0px 15px 2px #000;
     }*/
-    
-    div.hero-box{
-        position: relative;
-        background-color: transparent;
-        margin-bottom: 19px;
+    .call-us-div{
+        grid-column: 1/3;
     }
-    .hero-box img{
-        width: 100%;
-        position: relative;
-        /* width: 32rem; */
-    }
-    .hero-box button{
-        position: absolute;
-        bottom: 100px;
-        right: 50px;
-    }
-    .hero-box{
-        grid-column: 2/4;
-        grid-row: 1/3;
-    }
-    .event-box{
-        grid-column: 1;
-        grid-row: 1;
-    }
+
     .weather-box{
-        grid-column: 1;
-        grid-row: 2;
+        grid-column: 3/5;
+        grid-row: 1;
+        height: fit-content;
     }
     .weather-box p{
         margin: 0px;
@@ -160,62 +145,29 @@
     .weather-box div{
         margin: 0px;
     }
-    .join-box{
-        grid-column: 1;
-        grid-row: 3;
-        margin-bottom: 15px;
-    }
-    .spotlights-container{
-        height: auto;
-        grid-column: 4;
-        grid-row: 1/4;
-        
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    .spotlights-container section{
-        margin-bottom: 0;
-        
-    }
-    /* setting the properties of spotlight-3 here because in the small appears though the display:none*/
-    .spotlights-container :nth-child(3), .spotlights-container :nth-child(4){
-        display: block;
-        text-align: center;
-    }
     
-    .spotlight-3{
-        display: block;
-        border: 1px solid grey; 
-        padding: 0.3rem; 
-        text-align: center;
+    .three-days-temperature-forecast{
+        grid-column: 3/5;
+        grid-row: 1;
+        align-self: end;
+        display: flex;
+        
+        flex-direction: row;
     }
     .news-release-box{
         grid-column: 2/4;
         grid-row: 3;
         margin-bottom: 8.5px;
     }
+    .weather-boxes{
+        flex-direction: column;
+        padding: 2rem;
+    }
+
 
 
     /* -------------- discover site------------------- */
-    .lujan-statistics-box{
-        grid-column: 1/4;
-        grid-row: 1/end;
-        align-items: stretch;
-    }
-    .lujan-images-box{
-        grid-column: 4;
-        grid-row: 1/end;
-        margin-bottom: auto;
-    }
     
-    
-    .lujan-images-box:hover, .lujan-statistics-box:hover {
-        box-shadow: 1px 1px 8px 1px #000;;
-    }
-    .lujan-statistics-box img, .lujan-images-box img{
-        width: 100%;
-        box-shadow: 1px 1px 5px 0.5px #000;
-    }
 
     main img[data-src]{
         filter: blur(0.2em);
@@ -229,7 +181,15 @@
     footer div.chamber-info-footer-container{
         align-items: flex-end;
         padding-right: 2rem;
+        grid-column: 4/end;
+        grid-row: 1;
     }
+
+    .footer-form{
+        grid-column: 2/4;
+        grid-row: 1;
+    }
+
     /* ------------form in join site----------------- */
     
     legend{
@@ -248,7 +208,7 @@
     }
     form input.submitBtn{
         width: 100%;
-        max-width: 10rem;
+        max-width: 11rem;
     }
 
     main section.benefits-box{
@@ -359,6 +319,41 @@
     }
     main div.site-contact-info h3{
         margin-left: -15px;
+    }
+
+    /* -------------- services overview  ------------*/
+    .specialized-services-div{
+        height: fit-content;
+        padding: 0 8rem;
+
+    }    
+    .free-amenities-div{
+        padding: 0 8rem;
+    }
+    .buttons-link{
+        grid-column: 3/5;
+        justify-self: center;
+        align-self: center;
+        margin-top: 2rem;
+    }
+    .service-last-image{
+        grid-column: 1/3;
+    }
+
+    /* ------------- full temple missionaries-------------------- */
+    .suites-div{
+        grid-row: 1/end;
+    }
+    .suites-div img{
+        float: right;
+        
+    }
+
+    /* ------------wedding reception page----------- */
+    .wedding-list{
+        grid-column: 1/end;
+        grid-row: 1/end;
+        justify-content: center;
     }
 }
 
