@@ -24,8 +24,7 @@
         <a href="index.html">
             <picture>
                 <source srcset="images/templesInn-logo.png" width="200" height="200" media="(min-width: 1107px)">
-                <source srcset="images/templesInn-logo-small.jpg" width="100" height="100" media="(min-width: 400px)">
-                <img class="header-logo-img" width="200" height="200" src="images/templesInn-logo.png" alt="Temple Inn and Suites Logo">
+                <source srcset="images/templesInn-logo-small.jpg" width="100" height="100" media="(max-width: 1107px)">                <img class="header-logo-img" width="200" height="200" src="images/templesInn-logo.png" alt="Temple Inn and Suites Logo">
             </picture>
         </a>
         <nav>
@@ -54,7 +53,7 @@
     <div class="main-presentation-block" id="main-block-index" >
         <div class="main-image-background-front-text">
             <h2>We offer you the best services</h2>
-            <p>The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world. The owner-operated company caters to temple workers, patrons, and their families by providing specialized services and accommodations that meet the needs of those patrons. The hotel accommodations and services are available to anyone willing to abide by the terms and policies outlined by the company. The overall goal of the website project is to promote and provide information about the specialized services that this hotel chain offers to meet the needs of temple patrons who come to serve in the temple or who participate in events such as sealings, weddings, receptions, and youth trips.</p>
+            <p>The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world. The hotel accommodations and services are available to anyone willing to abide by the terms and policies outlined by the company. </p>
         </div>
         <div class="buttons-link">
             <a href="reservation.html">Make a reservation</a>
@@ -118,13 +117,17 @@
             <span>Weather data source: <a style="color:white; background-color: brown;" href="https://openweathermap.org/">OpenWeatherMap</a></span>
             <span class="map-link"><a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814,+USA/@38.9832518,-77.0955318,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318" class="location-link"><i class="fa fa-map-marker"></i> Location Map </a></span>
         </div>
-        <form action="#" class="footer-form">
-            <legend>Contact Us!</legend>
-                <section class="warning-box"></section>
-                <label class="top">First Name* <input type="text" name="fname" required></label>
-                <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-            </legend>
+        <form action="thankyou-contact.html" class="footer-form">
+            <fieldset>
+                <legend>Contact Us!</legend>
+                    <section class="warning-box"></section>
+                    <label class="top">First Name* <input type="text" name="fname" required></label>
+                    <label class="top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Special accommodations or comments<textarea name="specialcomments" cols="30" rows="10"></textarea></label>
+                    <input type="submit" value="Send short info" class="submitBtn">
+                
+            </fieldset>
         </form>
         <div class="bottom-student-information-box">
             <span class="copyright">&copy;2022 The Temples Inn & Suites </span>

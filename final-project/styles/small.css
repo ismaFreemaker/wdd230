@@ -121,7 +121,7 @@ header {
     border-radius: 30% 2%;
     font-weight: bolder;
     background-color: #00656F;
-    max-width: min-content;
+    min-width: fit-content;
 
 }
 .buttons-link a:hover{
@@ -336,7 +336,7 @@ footer span .location-link{text-decoration: none; color: var(--footer-location-l
     flex-direction: column;
 }
 .student-name{font-weight: bold; font-size: 120%;}
-.footer-logo{width: 200px; padding: 1rem; margin-top: 0px;}
+.footer-logo{width: 200px; padding: 1rem; margin-top: 0px; }
 
 
 

@@ -30,7 +30,8 @@ function builtTemplesCard(data){
         let card = document.createElement('section');        
         let h3Name = document.createElement('h3');        
         let templeImage = document.createElement('img');        
-        let pAddress = document.createElement('p');        
+        let pAddress = document.createElement('p');   
+        let emailAdress = document.createElement('p');     
         let pPhoneNumber = document.createElement('p');        
         let templeLink = document.createElement('a');
         thumbContainer = document.createElement("div");   
@@ -82,6 +83,7 @@ function builtTemplesCard(data){
         templeImage.setAttribute('loading', 'lazy');
         h3Name.textContent = `${temple.place}`;
         pAddress.textContent = `${temple.address}`;
+        emailAdress.textContent = `${temple.email}`;
         pPhoneNumber.textContent = `${temple.telephonenumber}`;
         templeLink.textContent = `visit temple site`;
         templeLink.setAttribute('href', `${temple.templelink}`);
@@ -101,6 +103,7 @@ function builtTemplesCard(data){
         card.append(templeImage);
         card.append(h3Name);
         card.append(pAddress);
+        card.append(emailAdress);
         card.append(pPhoneNumber);
         card.append(templeLink);
         card.append(thumbContainer);

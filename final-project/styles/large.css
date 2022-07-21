@@ -338,6 +338,7 @@
     }
     .service-last-image{
         grid-column: 1/3;
+        margin-left: 120px;
     }
 
     /* ------------- full temple missionaries-------------------- */

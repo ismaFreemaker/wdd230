@@ -22,7 +22,13 @@
 
 <body>
     <header>
-        <a href="index.html"><img class="header-logo-img" width="200" height="200" src="images/templesInn-logo.png" alt="Lujan Chamber of Commerce Logo"></a>
+        <a href="index.html">
+            <picture>
+                <source srcset="images/templesInn-logo.png" width="200" height="200" media="(min-width: 1107px)">
+                <source srcset="images/templesInn-logo-small.jpg" width="100" height="100" media="(max-width: 1107px)">                <img class="header-logo-img" width="200" height="200" src="images/templesInn-logo.png" alt="Temple Inn and Suites Logo">
+                <img class="header-logo-img" width="200" height="200" src="images/templesInn-logo.png" alt="Temple Inn and Suites Logo">
+            </picture>
+        </a>
         <nav>
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
@@ -46,7 +52,7 @@
         </section>
         <button id="hamburgerBtn"><span>&#9776;</span><span><img src="images/7124067_x_icon.svg" alt="x_icon"></span></button>
     </header>
-    <div class="main-presentation-block" id="main-block-temples" height="420px">
+    <div class="main-presentation-block" id="main-block-temples" >
         <div class="main-image-background-front-text">
             <h2>Temples</h2>
             <p>The temples are the most beautiful places and the House of the Lord. We help you to be comfortable when doing ordinances. </p>
