@@ -306,11 +306,14 @@ main > div{
     align-items: center;
     justify-content: space-between;
 }
-#weather-alert button{
-    background-color: transparent;
+#weather-alert #weatherButton {
+    background-color: white;
+    border: none;
     color: #fff;
 }
-
+#weather-alert #weatherButton:hover {
+    background-color: rgb(216, 127, 127);
+}
 div#weather-alert.close{
     display: none;
 }

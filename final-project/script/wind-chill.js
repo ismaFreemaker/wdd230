@@ -228,13 +228,12 @@ function checkAndDisplayAlert(data){
     }else{
         weatherAlert.style.display = "none";
     }
+    function toggleWeatherButton(){
+        document.querySelector("#weather-alert").classList.toggle("close");
+        document.querySelector("#weatherButton").classList.toggle("close");
+    }
+    const weatherBtn = document.getElementById("weatherButton");
+    // weatherBtn.style.backgroundColor = "green";
+    weatherBtn.onclick = toggleWeatherButton;
+    // weatherAlert.onclick = toggleWeatherButton;
 }
-
-function toggleWeatherButton(){
-    document.querySelector("#weather-alert").classList.toggle("close");
-    document.querySelector("#weatherButton").classList.toggle("close");
-}
-// const weatherBtn = document.getElementById("weatherButton");
-// weatherBtn.style.backgroundColor = "green";
-// weatherBtn.onclick = toggleWeatherButton;
-weatherAlert.onclick = toggleWeatherButton;
