@@ -106,7 +106,7 @@ let weatherIcon = document.querySelector("#weather-icon");
 let figcaption = document.querySelector('#fig-caption');
 
 let weathersSection = document.querySelector('.three-days-temperature-forecast');
-let weatherAlert = document.querySelector(".weather-alert");
+let weatherAlert = document.querySelector("#weather-alert");
 
 // the temperature has to be <=50°F(10C°)  and  >3.0mph(4.82803 km/h)
 
@@ -212,15 +212,29 @@ function displayWeathers(weatherdata){
         
     }   
 }
-
 function checkAndDisplayAlert(data){
+    // console.log(data);
     if (data.alerts){
-        weatherAlert.style.display = "block";
-        weatherAlert.textContent = `Weather Alert: ${data.alerts.event}; starts: ${data.alerts.start}, ends: ${data.alerts.end}`;
+        // weatherAlert.style.display = "flex";
+        weatherAlert.innerHTML = `<p>Weather Alert: ${data.alerts[0].event}; starts: ${Date(data.alerts[0].start)}, ends: ${Date(data.alerts[0].end)} </p><span><img id="weatherButton" src="images/7124067_x_icon.svg" alt="x_icon"></span>`;
+        
         weatherAlert.style.backgroundColor = "red";
         weatherAlert.style.color = "white";
         
+    }
+    else if (weatherAlert.contains("close") === true){
+        weatherAlert.style.display = "none";
+    
     }else{
         weatherAlert.style.display = "none";
     }
 }
+
+function toggleWeatherButton(){
+    document.querySelector("#weather-alert").classList.toggle("close");
+    document.querySelector("#weatherButton").classList.toggle("close");
+}
+// const weatherBtn = document.getElementById("weatherButton");
+// weatherBtn.style.backgroundColor = "green";
+// weatherBtn.onclick = toggleWeatherButton;
+weatherAlert.onclick = toggleWeatherButton;

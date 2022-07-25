@@ -297,8 +297,22 @@ main > div{
 }
 
 /* -- spotlights container-- */
-.weather-alerts {
-    height: 20px;
+#weather-alert {
+    display: flex;
+    background-color: red;
+    color:#fff;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#weather-alert button{
+    background-color: transparent;
+    color: #fff;
+}
+
+div#weather-alert.close{
+    display: none;
 }
 
 
