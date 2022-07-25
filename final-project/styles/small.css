@@ -301,7 +301,7 @@ main > div{
     display: flex;
     background-color: red;
     color:#fff;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
     display: flex;
     align-items: center;
     justify-content: space-between;
