@@ -137,7 +137,7 @@ async function apiFetch(){
             displayWeathers(data2);
             checkAndDisplayAlert(data3);
             // console.log(data2);
-            console.log(data3);
+            // console.log(data3);
 
         }else {
             throw Error(await response.text());
